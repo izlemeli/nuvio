@@ -1,7 +1,3 @@
-// Nuvio Katalog — statik katalog üretici (GitHub Actions üzerinde çalışır)
-// Girdi : izlemeli.com/nuvio/config.json  (yalnızca ayarlar, gizli bilgi yok)
-// Gizli : TMDB_KEY  (GitHub Secret)
-// Çıktı : dist/  → GitHub Pages
 import { mkdir, writeFile, readFile, rm } from 'node:fs/promises';
 import path from 'node:path';
 
@@ -11,6 +7,7 @@ const OUT = 'dist';
 const TMDB = (process.env.TMDB_BASE || 'https://api.themoviedb.org/3').replace(/\/$/, '');
 const KEY = (process.env.TMDB_KEY || '').trim();
 const CONCURRENCY = 8;
+const TYPES_FILE = '.cache/izl-types.json'; // izlemeli önerileri: tmdb_id -> movie|tv (Actions cache ile saklanır)
 
 const fail = (m) => { console.error('✗ ' + m); process.exit(1); };
 
@@ -27,7 +24,7 @@ async function loadConfig() {
 /* ---------- TMDB ---------- */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function tmdb(p, params) {
+async function tmdb(p, params, { allow404 = false } = {}) {
   const q = { ...params };
   const headers = { Accept: 'application/json' };
   if (KEY.length > 40) headers.Authorization = 'Bearer ' + KEY; else q.api_key = KEY;
@@ -37,6 +34,7 @@ async function tmdb(p, params) {
     try {
       const r = await fetch(url, { headers });
       if (r.ok) return await r.json();
+      if (r.status === 404 && allow404) return null;
       last = 'HTTP ' + r.status;
       if (r.status === 401) throw new Error('TMDB anahtarı reddedildi (401).');
       if (r.status === 429) await sleep((Number(r.headers.get('retry-after')) || 2) * 1000);
@@ -113,6 +111,58 @@ function toMeta(t, r) {
   return m;
 }
 
+
+/* ---------- izlemeli.com önerileri (siteden sadece tmdb_id, gerisi TMDB) ---------- */
+async function loadIzlItems(izl) {
+  const r = await fetch(izl.url, { headers: { 'User-Agent': 'izlemeli-nuvio-build/1.0', Accept: 'application/json' } });
+  if (!r.ok) fail(`İzlemeli önerileri JSON'u alınamadı: HTTP ${r.status} (${izl.url}). WAF/güvenlik duvarını kontrol et.`);
+  let j;
+  try { j = await r.json(); } catch { fail('İzlemeli önerileri JSON\'u geçersiz.'); }
+  if (!Array.isArray(j.icerikler)) fail("İzlemeli önerileri JSON'unda 'icerikler' yok.");
+  const seen = new Set();
+  const items = [];
+  for (const x of j.icerikler) {
+    const id = String(x.tmdb_id ?? '').replace(/\D/g, '');
+    if (!id || seen.has(id)) continue; // tmdb_id'si olmayan yazılar atlanır
+    seen.add(id);
+    const cats = String(x.taksonomi_category ?? '').split(',').map((c) => c.trim());
+    items.push({ id, hint: cats.includes('Diziler') }); // hint: aynı ID hem film hem dizi ise eşitlik bozucu
+  }
+  return izl.sort === 'site' ? items : items.reverse(); // varsayılan: son eklenen önce
+}
+
+async function resolveIzl(items, codes, errors) {
+  let types = {};
+  try { types = JSON.parse(await readFile(TYPES_FILE, 'utf8')); } catch { /* ilk çalışma */ }
+  const det = {};
+  codes.forEach((c) => { det[c] = {}; });
+  const first = codes[0];
+
+  // 1) Türü bilinmeyenler için film ve dizi uçlarını birlikte sor
+  await pool(items.filter((i) => !types[i.id]).map((i) => async () => {
+    try {
+      const [m, t] = await Promise.all(['movie', 'tv'].map((x) => tmdb(`/${x}/${i.id}`, { language: LANGS[first] }, { allow404: true })));
+      const pick = m && t ? (i.hint ? 'tv' : 'movie') : m ? 'movie' : t ? 'tv' : null;
+      if (!pick) return; // TMDB'de yok → bu sefer atla
+      types[i.id] = pick;
+      det[first][i.id] = { t: pick, r: pick === 'movie' ? m : t };
+    } catch (e) { errors.push(`izlemeli ${i.id}: ${e.message}`); }
+  }), CONCURRENCY);
+
+  // 2) Her dil için eksik ayrıntıları çek
+  for (const code of codes) {
+    await pool(items.filter((i) => types[i.id] && !det[code][i.id]).map((i) => async () => {
+      try {
+        const r = await tmdb(`/${types[i.id]}/${i.id}`, { language: LANGS[code] }, { allow404: true });
+        if (r) det[code][i.id] = { t: types[i.id], r };
+      } catch (e) { errors.push(`izlemeli ${code}/${i.id}: ${e.message}`); }
+    }), CONCURRENCY);
+  }
+  await mkdir(path.dirname(TYPES_FILE), { recursive: true });
+  await writeFile(TYPES_FILE, JSON.stringify(types));
+  return det;
+}
+
 async function fetchPage(types, cat, page, lang) {
   const res = await Promise.all(types.map((t) => tmdb('/discover/' + t, discoverParams(t, cat, page, lang))));
   const lists = res.map((r) => r.results || []);
@@ -167,6 +217,16 @@ async function main() {
     catch (err) { errors.push(`${j.code}/${j.e.id}/p${j.p}: ${err.message}`); return null; }
   }), CONCURRENCY);
 
+  // izlemeli.com önerileri
+  const izlCfg = cfg.izlemeli && cfg.izlemeli.on && cfg.izlemeli.url ? cfg.izlemeli : null;
+  let izlDet = null;
+  let izlItems = [];
+  if (izlCfg) {
+    izlItems = await loadIzlItems(izlCfg);
+    console.log(`İzlemeli önerileri: ${izlItems.length} TMDB ID`);
+    if (izlItems.length) izlDet = await resolveIzl(izlItems, codes, errors);
+  }
+
   if (errors.length) {
     console.error(errors.slice(0, 15).join('\n'));
     // Hata varsa dağıtımı iptal et → önceki çalışan sürüm yayında kalır
@@ -192,6 +252,26 @@ async function main() {
   for (const code of codes) {
     const catalogs = [];
     const extra = [{ name: 'skip', isRequired: false }];
+    if (izlDet) {
+      const valid = izlItems.filter((i) => izlDet[code][i.id]).map((i) => izlDet[code][i.id]);
+      const name = code === 'en' && String(izlCfg.title_en || '').trim() ? izlCfg.title_en : izlCfg.title || 'izlemeli.com önerileri';
+      const groups = mix === 'split'
+        ? [{ id: 'nvk-izl-m', type: 'movie', list: valid.filter((d) => d.t === 'movie') },
+           { id: 'nvk-izl-s', type: 'series', list: valid.filter((d) => d.t === 'tv') }]
+        : [{ id: 'nvk-izl', type: 'movie', list: valid }];
+      for (const g of groups) {
+        if (!g.list.length) continue;
+        catalogs.push({ type: g.type, id: g.id, name, extra }); // her zaman en üstte
+        const PER = 100;
+        const nPages = Math.ceil(g.list.length / PER);
+        for (let k = 0; k < nPages; k++) {
+          const metas = g.list.slice(k * PER, (k + 1) * PER).map((d) => toMeta(d.t, d.r));
+          if (k === 0) await emit(code, `catalog/${g.type}/${g.id}.json`, { metas });
+          await emit(code, `catalog/${g.type}/${g.id}/skip=${k * PER}.json`, { metas });
+        }
+        await emit(code, `catalog/${g.type}/${g.id}/skip=${nPages * PER}.json`, { metas: [] });
+      }
+    }
     for (const c of cats) {
       const title = code === 'tr' || !String(c.title_en || '').trim() ? c.title : c.title_en;
       for (const e of entries.get(c)) {
@@ -218,7 +298,7 @@ async function main() {
     });
   }
 
-  await put('status.json', { built_at: new Date().toISOString(), config_ver: ver, categories: cats.length, langs: codes, pages, files: fileCount });
+  await put('status.json', { built_at: new Date().toISOString(), config_ver: ver, categories: cats.length, izlemeli: izlItems.length, langs: codes, pages, files: fileCount });
   await put('.nojekyll', '');
   await put('index.html', landing(cfg.name || 'İzlemeli Katalog', codes, defaultCode));
   console.log(`✓ ${fileCount} dosya üretildi → ${OUT}/`);
