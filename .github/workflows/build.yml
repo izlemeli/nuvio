@@ -1,0 +1,46 @@
+name: Katalog üret ve yayınla
+
+on:
+  workflow_dispatch:          # izlemeli.com panelindeki buton bunu tetikler
+  schedule:
+    - cron: '17 3 * * *'      # her gün 03:17 UTC otomatik yenile
+  push:
+    branches: [main]
+    paths: ['build.mjs', '.github/workflows/build.yml']
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Katalogları üret
+        run: node build.mjs
+        env:
+          TMDB_KEY: ${{ secrets.TMDB_KEY }}
+          CONFIG_URL: ${{ vars.CONFIG_URL }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
