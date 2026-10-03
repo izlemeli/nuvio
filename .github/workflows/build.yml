@@ -1,9 +1,9 @@
 name: Katalog üret ve yayınla
 
 on:
-  workflow_dispatch:          # izlemeli.com panelindeki buton bunu tetikler
+  workflow_dispatch:
   schedule:
-    - cron: '17 3 * * *'      # her gün 03:17 UTC otomatik yenile
+    - cron: '0 1 * * *'
   push:
     branches: [main]
     paths: ['build.mjs', '.github/workflows/build.yml']
