@@ -25,6 +25,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: İzlemeli önerileri tür önbelleği
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: izl-types-${{ github.run_id }}
+          restore-keys: izl-types-
       - name: Katalogları üret
         run: node build.mjs
         env:
