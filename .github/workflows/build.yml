@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: İzlemeli önerileri tür önbelleği
+      - name: Tür önbelleği
         uses: actions/cache@v4
         with:
           path: .cache
@@ -35,7 +35,8 @@ jobs:
         run: node build.mjs
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
-          CONFIG_URL: ${{ vars.CONFIG_URL }}
+          CONFIG_URL: ${{ secrets.CONFIG_URL }}
+          IZL_URL: ${{ secrets.IZL_URL }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
