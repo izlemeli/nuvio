@@ -6,22 +6,22 @@ const TV_MAP = { 28: 10759, 12: 10759, 14: 10765, 878: 10765, 10752: 10768, 16: 
 const OUT = 'dist';
 const TMDB = (process.env.TMDB_BASE || 'https://api.themoviedb.org/3').replace(/\/$/, '');
 const KEY = (process.env.TMDB_KEY || '').trim();
+const IZL_URL = (process.env.IZL_URL || '').trim();
+const UA = 'nuvio-katalog-build/1.0';
 const CONCURRENCY = 8;
-const TYPES_FILE = '.cache/izl-types.json'; // izlemeli önerileri: tmdb_id -> movie|tv (Actions cache ile saklanır)
+const TYPES_FILE = '.cache/izl-types.json';
 
 const fail = (m) => { console.error('✗ ' + m); process.exit(1); };
 
-/* ---------- Ayarları yükle ---------- */
 async function loadConfig() {
   if (process.env.CONFIG_FILE) return JSON.parse(await readFile(process.env.CONFIG_FILE, 'utf8'));
   const url = (process.env.CONFIG_URL || '').trim();
-  if (!url) fail('CONFIG_URL tanımlı değil (Settings → Secrets and variables → Actions → Variables).');
-  const r = await fetch(url, { headers: { 'User-Agent': 'izlemeli-nuvio-build/1.0', Accept: 'application/json' } });
-  if (!r.ok) fail(`config.json alınamadı: HTTP ${r.status} (${url}). Sunucu/WAF GitHub IP'lerini engelliyor olabilir.`);
+  if (!url) fail('CONFIG_URL secret tanımlı değil (Settings → Secrets and variables → Actions → Secrets).');
+  const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+  if (!r.ok) fail(`Ayar dosyası alınamadı: HTTP ${r.status}. Sunucu/WAF GitHub IP'lerini engelliyor olabilir.`);
   return await r.json();
 }
 
-/* ---------- TMDB ---------- */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function tmdb(p, params, { allow404 = false } = {}) {
@@ -56,7 +56,6 @@ async function pool(tasks, n) {
   return res;
 }
 
-/* ---------- Kategori mantığı (WordPress eklentisinden birebir taşındı) ---------- */
 function tvGenres(v) {
   const parts = String(v ?? '').split(/([,|])/);
   let sep = ',';
@@ -111,45 +110,41 @@ function toMeta(t, r) {
   return m;
 }
 
-
-/* ---------- izlemeli.com önerileri (siteden sadece tmdb_id, gerisi TMDB) ---------- */
 async function loadIzlItems(izl) {
-  const r = await fetch(izl.url, { headers: { 'User-Agent': 'izlemeli-nuvio-build/1.0', Accept: 'application/json' } });
-  if (!r.ok) fail(`İzlemeli önerileri JSON'u alınamadı: HTTP ${r.status} (${izl.url}). WAF/güvenlik duvarını kontrol et.`);
+  const r = await fetch(IZL_URL, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+  if (!r.ok) fail(`Öneri listesi alınamadı: HTTP ${r.status}. WAF/güvenlik duvarını kontrol et.`);
   let j;
-  try { j = await r.json(); } catch { fail('İzlemeli önerileri JSON\'u geçersiz.'); }
-  if (!Array.isArray(j.icerikler)) fail("İzlemeli önerileri JSON'unda 'icerikler' yok.");
+  try { j = await r.json(); } catch { fail('Öneri listesi geçersiz JSON.'); }
+  if (!Array.isArray(j.icerikler)) fail("Öneri listesinde 'icerikler' yok.");
   const seen = new Set();
   const items = [];
   for (const x of j.icerikler) {
     const id = String(x.tmdb_id ?? '').replace(/\D/g, '');
-    if (!id || seen.has(id)) continue; // tmdb_id'si olmayan yazılar atlanır
+    if (!id || seen.has(id)) continue;
     seen.add(id);
     const cats = String(x.taksonomi_category ?? '').split(',').map((c) => c.trim());
-    items.push({ id, hint: cats.includes('Diziler') }); // hint: aynı ID hem film hem dizi ise eşitlik bozucu
+    items.push({ id, hint: cats.includes('Diziler') });
   }
-  return izl.sort === 'site' ? items : items.reverse(); // varsayılan: son eklenen önce
+  return izl.sort === 'site' ? items : items.reverse();
 }
 
 async function resolveIzl(items, codes, errors) {
   let types = {};
-  try { types = JSON.parse(await readFile(TYPES_FILE, 'utf8')); } catch { /* ilk çalışma */ }
+  try { types = JSON.parse(await readFile(TYPES_FILE, 'utf8')); } catch { }
   const det = {};
   codes.forEach((c) => { det[c] = {}; });
   const first = codes[0];
 
-  // 1) Türü bilinmeyenler için film ve dizi uçlarını birlikte sor
   await pool(items.filter((i) => !types[i.id]).map((i) => async () => {
     try {
       const [m, t] = await Promise.all(['movie', 'tv'].map((x) => tmdb(`/${x}/${i.id}`, { language: LANGS[first] }, { allow404: true })));
       const pick = m && t ? (i.hint ? 'tv' : 'movie') : m ? 'movie' : t ? 'tv' : null;
-      if (!pick) return; // TMDB'de yok → bu sefer atla
+      if (!pick) return;
       types[i.id] = pick;
       det[first][i.id] = { t: pick, r: pick === 'movie' ? m : t };
     } catch (e) { errors.push(`izlemeli ${i.id}: ${e.message}`); }
   }), CONCURRENCY);
 
-  // 2) Her dil için eksik ayrıntıları çek
   for (const code of codes) {
     await pool(items.filter((i) => types[i.id] && !det[code][i.id]).map((i) => async () => {
       try {
@@ -172,7 +167,6 @@ async function fetchPage(types, cat, page, lang) {
   return metas;
 }
 
-/* ---------- Üretim ---------- */
 async function main() {
   if (!KEY && !process.env.CONFIG_FILE_NO_KEY) fail('TMDB_KEY secret tanımlı değil.');
   const cfg = await loadConfig();
@@ -185,12 +179,10 @@ async function main() {
   const codes = (Array.isArray(cfg.langs) && cfg.langs.length ? cfg.langs : Object.keys(LANGS)).filter((c) => LANGS[c]);
   const defaultCode = codes.includes(defCode) ? defCode : codes[0];
 
-  // Sabitlenenler (pin) her zaman en üstte
   const cats = [...cfg.categories.filter((c) => c.pin), ...cfg.categories.filter((c) => !c.pin)]
     .filter((c) => c.id && !(c.kind === 'kw' && !c.value));
   if (!cats.length) fail('Aktif kategori yok.');
 
-  // Manifest girdileri
   const entriesOf = (c) => {
     const types = typesFor(c);
     if (types.length === 2 && mix === 'split') {
@@ -202,9 +194,8 @@ async function main() {
     return [{ type: types[0] === 'tv' && types.length === 1 ? 'series' : 'movie', id: `nvk-${c.id}`, types }];
   };
 
-  const entries = new Map(cats.map((c) => [c, entriesOf(c)])); // nesne kimliği sabit kalsın
+  const entries = new Map(cats.map((c) => [c, entriesOf(c)]));
 
-  // Tüm TMDB işlerini tek havuzda çalıştır
   const jobs = [];
   for (const code of codes) for (const c of cats) for (const e of entries.get(c)) {
     for (let p = 1; p <= pages; p++) jobs.push({ code, c, e, p });
@@ -217,8 +208,8 @@ async function main() {
     catch (err) { errors.push(`${j.code}/${j.e.id}/p${j.p}: ${err.message}`); return null; }
   }), CONCURRENCY);
 
-  // izlemeli.com önerileri
-  const izlCfg = cfg.izlemeli && cfg.izlemeli.on && cfg.izlemeli.url ? cfg.izlemeli : null;
+  const izlCfg = cfg.izlemeli && cfg.izlemeli.on ? cfg.izlemeli : null;
+  if (izlCfg && !IZL_URL) fail('IZL_URL secret tanımlı değil.');
   let izlDet = null;
   let izlItems = [];
   if (izlCfg) {
@@ -229,7 +220,6 @@ async function main() {
 
   if (errors.length) {
     console.error(errors.slice(0, 15).join('\n'));
-    // Hata varsa dağıtımı iptal et → önceki çalışan sürüm yayında kalır
     fail(`${errors.length} istek başarısız; mevcut yayın korunuyor.`);
   }
 
@@ -241,7 +231,6 @@ async function main() {
     await writeFile(f, typeof data === 'string' ? data : JSON.stringify(data));
     fileCount++;
   };
-  // Hem /tr/... hem (varsayılan dil için) kök dizine yaz
   const emit = async (code, rel, data) => {
     await put(`${code}/${rel}`, data);
     if (code === defaultCode) await put(rel, data);
@@ -261,7 +250,7 @@ async function main() {
         : [{ id: 'nvk-izl', type: 'movie', list: valid }];
       for (const g of groups) {
         if (!g.list.length) continue;
-        catalogs.push({ type: g.type, id: g.id, name, extra }); // her zaman en üstte
+        catalogs.push({ type: g.type, id: g.id, name, extra });
         const PER = 100;
         const nPages = Math.ceil(g.list.length / PER);
         for (let k = 0; k < nPages; k++) {
@@ -283,7 +272,7 @@ async function main() {
           if (j.p === 1) await emit(code, `catalog/${e.type}/${e.id}.json`, { metas: j.metas });
           await emit(code, `catalog/${e.type}/${e.id}/skip=${skip}.json`, { metas: j.metas });
         }
-        await emit(code, `catalog/${e.type}/${e.id}/skip=${pages * per}.json`, { metas: [] }); // son sayfa
+        await emit(code, `catalog/${e.type}/${e.id}/skip=${pages * per}.json`, { metas: [] });
       }
     }
     await emit(code, 'manifest.json', {
