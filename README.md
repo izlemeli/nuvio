@@ -205,3 +205,7 @@ https://izlemeli.github.io/nuvio/en/manifest.json
 ---
 
 **Not:** Bu proje bir streaming servisi değildir ve herhangi bir video barındırmaz. Eklentinin amacı Nuvio üzerinde film ve dizilerin farklı kataloglar aracılığıyla keşfedilmesini ve listelenmesini sağlamaktır.
+
+<p>
+  <strong>🔴 Öneri:</strong> Bu eklentinin <strong>Nuvio'nun orijinal katalog eklentisiyle birlikte kullanılması önerilir.</strong> Nuvio'nun ana kataloğunda bulunan meta veriler sayesinde içerik eşleştirme ve katalog kullanımı daha sorunsuz ve uyumlu şekilde çalışır.
+</p>
