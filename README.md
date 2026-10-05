@@ -99,6 +99,11 @@ https://izlemeli.github.io/nuvio/tr/manifest.json
 * 🇬🇧 [English Manifest](https://izlemeli.github.io/nuvio/en/manifest.json)
 * 🇹🇷 [Türkçe Manifest](https://izlemeli.github.io/nuvio/tr/manifest.json)
 
+<p style="color:red;">
+<strong>Recommendation:</strong> It is <strong>recommended to use this plugin together with Nuvio's original catalog plugin.</strong> The metadata provided by Nuvio's main catalog helps ensure smoother content matching and a more seamless catalog experience.
+</p>
+
+
 ---
 
 # 🇹🇷 İzlemeli Nuvio Anasayfa Kataloğu Eklentisi
@@ -206,6 +211,6 @@ https://izlemeli.github.io/nuvio/en/manifest.json
 
 **Not:** Bu proje bir streaming servisi değildir ve herhangi bir video barındırmaz. Eklentinin amacı Nuvio üzerinde film ve dizilerin farklı kataloglar aracılığıyla keşfedilmesini ve listelenmesini sağlamaktır.
 
-<p>
-  <strong>🔴 Öneri:</strong> Bu eklentinin <strong>Nuvio'nun orijinal katalog eklentisiyle birlikte kullanılması önerilir.</strong> Nuvio'nun ana kataloğunda bulunan meta veriler sayesinde içerik eşleştirme ve katalog kullanımı daha sorunsuz ve uyumlu şekilde çalışır.
+<p style="color:red;">
+<strong>Öneri:</strong> Bu eklentinin <strong>Nuvio'nun orijinal katalog eklentisiyle birlikte kullanılması önerilir.</strong> Nuvio'nun ana kataloğunda bulunan meta veriler sayesinde içerik eşleştirme ve katalog kullanımı daha sorunsuz ve uyumlu şekilde çalışır.
 </p>
