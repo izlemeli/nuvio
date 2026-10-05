@@ -79,17 +79,17 @@ https://izlemeli.github.io/nuvio/tr/manifest.json
 ### 📱 Installation Screenshots
 
 <p align="center">
-  <img src="screenshots/install-1.png" width="30%" alt="Nuvio Addon Installation">
-  <img src="screenshots/install-2.png" width="30%" alt="Nuvio Addon Settings">
-  <img src="screenshots/install-3.png" width="30%" alt="Nuvio Addon Manifest">
+  <img src="screenshots/s1-en.jpg" width="30%" alt="Nuvio Settings Content">
+  <img src="screenshots/s2-en.jpg" width="30%" alt="Nuvio Settings Content - Addons">
+  <img src="screenshots/s3-en.jpg" width="30%" alt="Nuvio Settings Content - Addons - Add Addon">
 </p>
 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/home-1.png" width="30%" alt="Nuvio Home Catalog">
-  <img src="screenshots/home-2.png" width="30%" alt="Nuvio Movie and TV Catalogs">
-  <img src="screenshots/home-3.png" width="30%" alt="Nuvio Themes and Interests">
+  <img src="screenshots/n1-en.jpg" width="30%" alt="Nuvio Home Catalog">
+  <img src="screenshots/n2-en.jpg" width="30%" alt="Nuvio Movie and TV Catalogs">
+  <img src="screenshots/n3-en.jpg" width="30%" alt="Nuvio Themes and Interests">
 </p>
 
 ## 🔗 Links
@@ -182,17 +182,17 @@ https://izlemeli.github.io/nuvio/en/manifest.json
 ### 📱 Kurulum Ekran Görüntüleri
 
 <p align="center">
-  <img src="screenshots/install-1.png" width="30%" alt="Nuvio Eklenti Kurulumu">
-  <img src="screenshots/install-2.png" width="30%" alt="Nuvio Eklenti Ayarları">
-  <img src="screenshots/install-3.png" width="30%" alt="Nuvio Manifest Ekleme">
+  <img src="screenshots/s1-tr.jpg" width="30%" alt="Nuvio Ayarlar">
+  <img src="screenshots/s2-tr.jpg" width="30%" alt="Nuvio Ayarlar - İçerik">
+  <img src="screenshots/s3-tr.jpg" width="30%" alt="Nuvio Ayarlar - İçerik - Eklenti">
 </p>
 
 ## 📸 Ekran Görüntüleri
 
 <p align="center">
-  <img src="screenshots/home-1.png" width="30%" alt="Nuvio Anasayfa Kataloğu">
-  <img src="screenshots/home-2.png" width="30%" alt="Nuvio Film ve Dizi Katalogları">
-  <img src="screenshots/home-3.png" width="30%" alt="Nuvio Tema ve İlgi Alanları">
+  <img src="screenshots/n1-tr.jpg" width="30%" alt="Nuvio Anasayfa Kataloğu">
+  <img src="screenshots/n2-tr.jpg" width="30%" alt="Nuvio Film ve Dizi Katalogları">
+  <img src="screenshots/n3-tr.jpg" width="30%" alt="Nuvio Tema ve İlgi Alanları">
 </p>
 
 ## 🔗 Bağlantılar
