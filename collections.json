@@ -15,9 +15,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withWatchProviders": "8",
                             "watchRegion": "US"
                         },
@@ -146,9 +145,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withWatchProviders": "337",
                             "watchRegion": "US"
                         },
@@ -277,9 +275,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withWatchProviders": "9|119",
                             "watchRegion": "US"
                         },
@@ -408,9 +405,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withWatchProviders": "1899",
                             "watchRegion": "US"
                         },
@@ -539,9 +535,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withWatchProviders": "350",
                             "watchRegion": "US"
                         },
@@ -681,9 +676,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06"
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2025-01-01"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -839,9 +833,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "28"
                         },
                         "sortHow": null,
@@ -964,9 +957,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "12"
                         },
                         "sortHow": null,
@@ -1089,9 +1081,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "16"
                         },
                         "sortHow": null,
@@ -1214,9 +1205,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "35"
                         },
                         "sortHow": null,
@@ -1339,9 +1329,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "80"
                         },
                         "sortHow": null,
@@ -1464,9 +1453,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "99"
                         },
                         "sortHow": null,
@@ -1589,9 +1577,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "18"
                         },
                         "sortHow": null,
@@ -1714,9 +1701,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "10751"
                         },
                         "sortHow": null,
@@ -1839,9 +1825,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "14"
                         },
                         "sortHow": null,
@@ -1964,9 +1949,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "36"
                         },
                         "sortHow": null,
@@ -2089,9 +2073,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "27"
                         },
                         "sortHow": null,
@@ -2214,9 +2197,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "10402"
                         },
                         "sortHow": null,
@@ -2339,9 +2321,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "9648"
                         },
                         "sortHow": null,
@@ -2464,9 +2445,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "10749"
                         },
                         "sortHow": null,
@@ -2589,9 +2569,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "878"
                         },
                         "sortHow": null,
@@ -2714,9 +2693,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "53"
                         },
                         "sortHow": null,
@@ -2839,9 +2817,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "10752"
                         },
                         "sortHow": null,
@@ -2964,9 +2941,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withGenres": "37"
                         },
                         "sortHow": null,
@@ -3451,7 +3427,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "371846"
+                            "withKeywords": "310"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3469,7 +3445,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "371846"
+                            "withKeywords": "310"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6261,9 +6237,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
+                            "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "releaseDateLte": "2026-10-06",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
                         },
