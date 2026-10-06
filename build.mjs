@@ -194,10 +194,14 @@ async function main() {
     return [{ type: types[0] === 'tv' && types.length === 1 ? 'series' : 'movie', id: `nvk-${c.id}`, types }];
   };
 
+  // Kategoride 'langs' varsa yalnızca o dil(ler)in katalogunda yer alır (örn. ["tr"]).
+  const inLang = (c, code) => !Array.isArray(c.langs) || !c.langs.length || c.langs.includes(code);
+
   const entries = new Map(cats.map((c) => [c, entriesOf(c)]));
 
   const jobs = [];
   for (const code of codes) for (const c of cats) for (const e of entries.get(c)) {
+    if (!inLang(c, code)) continue;
     for (let p = 1; p <= pages; p++) jobs.push({ code, c, e, p });
   }
   console.log(`Kategori: ${cats.length} · dil: ${codes.join(',')} · sayfa: ${pages} · sayfa işi: ${jobs.length}`);
@@ -262,6 +266,7 @@ async function main() {
       }
     }
     for (const c of cats) {
+      if (!inLang(c, code)) continue;
       const title = code === 'tr' || !String(c.title_en || '').trim() ? c.title : c.title_en;
       for (const e of entries.get(c)) {
         catalogs.push({ type: e.type, id: e.id, name: title, extra });
