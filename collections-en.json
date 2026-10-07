@@ -258,10 +258,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/upecGaCuQOIbSpdz85mrJ395UMg.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-disney.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/upecGaCuQOIbSpdz85mrJ395UMg.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-disney.jpg"
             },
             {
                 "id": "folder-p2",
@@ -388,10 +388,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-prime-video.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-prime-video.jpg"
             },
             {
                 "id": "folder-p3",
@@ -518,10 +518,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/mMLVXM8UOKSxVSxnXcmuBPMiHsC.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-hbo-max.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/mMLVXM8UOKSxVSxnXcmuBPMiHsC.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-hbo-max.jpg"
             },
             {
                 "id": "folder-p4",
@@ -648,13 +648,13 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-apple-tv.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/wtzSwtnQ4RsRbV5cc114Nb1q3b0.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-apple-tv.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
         "showAllTab": false,
         "backdropImageUrl": null,
@@ -709,10 +709,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🆕",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/v0T74v8LPZBSL247oGeTOp06tnm.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/new-popular-new-releases.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/v0T74v8LPZBSL247oGeTOp06tnm.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/new-popular-new-releases.jpg"
             },
             {
                 "id": "folder-np-pop",
@@ -757,10 +757,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔥",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/new-popular-trending-now.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/new-popular-trending-now.jpg"
             },
             {
                 "id": "folder-np-top",
@@ -805,13 +805,13 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "⭐",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/new-popular-top-rated-on-imdb.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/new-popular-top-rated-on-imdb.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
         "showAllTab": false,
         "backdropImageUrl": null,
@@ -1560,10 +1560,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎥",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/8ADvnUHcEyt2247A1EL9WK4IdMI.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-documentary.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/8ADvnUHcEyt2247A1EL9WK4IdMI.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-documentary.jpg"
             },
             {
                 "id": "folder-g6",
@@ -1684,10 +1684,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎭",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-drama.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-drama.jpg"
             },
             {
                 "id": "folder-g7",
@@ -1808,10 +1808,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👨‍👩‍👧",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/5Ur40GWrgeLePW6RAYZZoS5BRLk.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-family.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/5Ur40GWrgeLePW6RAYZZoS5BRLk.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-family.jpg"
             },
             {
                 "id": "folder-g8",
@@ -1932,10 +1932,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧙",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-fantasy.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/rJT7ARv4G2sr1uTZnBEUSigg1hf.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-fantasy.jpg"
             },
             {
                 "id": "folder-g9",
@@ -2056,10 +2056,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏛️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/iQMFLm9Te2IuJTr08RdBLKTGw8n.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-history.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/iQMFLm9Te2IuJTr08RdBLKTGw8n.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-history.jpg"
             },
             {
                 "id": "folder-g10",
@@ -2180,10 +2180,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👻",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/qkxk9URcK33HK54YSXFPQO8aqJH.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-horror.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/qkxk9URcK33HK54YSXFPQO8aqJH.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-horror.jpg"
             },
             {
                 "id": "folder-g11",
@@ -2304,10 +2304,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎵",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/uL1HCc4wmcFcSr1zS3kXX3CNUeE.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-music.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/uL1HCc4wmcFcSr1zS3kXX3CNUeE.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-music.jpg"
             },
             {
                 "id": "folder-g12",
@@ -2428,10 +2428,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔎",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/v0T74v8LPZBSL247oGeTOp06tnm.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-mystery.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/v0T74v8LPZBSL247oGeTOp06tnm.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-mystery.jpg"
             },
             {
                 "id": "folder-g13",
@@ -2552,10 +2552,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💕",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-romance.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/nDScZ6YR2nfNCeK5bmJ1ujb355b.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-romance.jpg"
             },
             {
                 "id": "folder-g14",
@@ -2676,10 +2676,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🚀",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/zQmaXGt8MYNRZaV2YVqkFbCoTWq.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-sci-fi.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/zQmaXGt8MYNRZaV2YVqkFbCoTWq.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-sci-fi.jpg"
             },
             {
                 "id": "folder-g15",
@@ -2800,10 +2800,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "😰",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/1j1nQ4bE2mdBFaQo1RsxGjeBCtn.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-thriller.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/1j1nQ4bE2mdBFaQo1RsxGjeBCtn.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-thriller.jpg"
             },
             {
                 "id": "folder-g16",
@@ -2924,10 +2924,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "⚔️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-war.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/wM4LLukeBIfhjn7LcVP6VIced4p.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-war.jpg"
             },
             {
                 "id": "folder-g17",
@@ -3048,13 +3048,13 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🤠",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/mwqxKmbW6ssqa5CKHrgocqbkL0C.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-western.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/mwqxKmbW6ssqa5CKHrgocqbkL0C.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/genres-western.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
         "showAllTab": false,
         "backdropImageUrl": null,
@@ -3327,7 +3327,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "179431"
+                            "withKeywords": "10854"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3345,7 +3345,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "179431"
+                            "withKeywords": "10854"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3377,7 +3377,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "9713"
+                            "withKeywords": "243230"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3395,7 +3395,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "9713"
+                            "withKeywords": "243230"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3459,10 +3459,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🤖",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-artificial-intelligence.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-artificial-intelligence.jpg"
             },
             {
                 "id": "folder-t8",
@@ -3477,7 +3477,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1450"
+                            "withKeywords": "14544"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3495,7 +3495,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1450"
+                            "withKeywords": "14544"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3509,10 +3509,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🤖",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-robots.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-robots.jpg"
             },
             {
                 "id": "folder-t9",
@@ -3527,7 +3527,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "995"
+                            "withKeywords": "240435"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3545,7 +3545,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "995"
+                            "withKeywords": "240435"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3559,10 +3559,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧬",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/rleTwPqymtOpeD2bR7asJGEmldV.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-scientific-experiments.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/rleTwPqymtOpeD2bR7asJGEmldV.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-scientific-experiments.jpg"
             },
             {
                 "id": "folder-t10",
@@ -3609,10 +3609,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💻",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/ihOJcrorpDQtHTzIOrobbOhpJsj.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-virtual-reality.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/ihOJcrorpDQtHTzIOrobbOhpJsj.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-virtual-reality.jpg"
             },
             {
                 "id": "folder-t11",
@@ -3659,10 +3659,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "☢️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-post-apocalyptic.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-post-apocalyptic.jpg"
             },
             {
                 "id": "folder-t12",
@@ -3709,10 +3709,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌍",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-end-of-the-world.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/s94NjfKkcSczZ1FembwmQZwsuwY.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-end-of-the-world.jpg"
             },
             {
                 "id": "folder-t13",
@@ -3759,10 +3759,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🦠",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-epidemic.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-epidemic.jpg"
             },
             {
                 "id": "folder-t14",
@@ -3809,10 +3809,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧛",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-vampires.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/nAxGnGHOsfzufThz20zgmRwKur3.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-vampires.jpg"
             },
             {
                 "id": "folder-t15",
@@ -3827,7 +3827,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "123"
+                            "withKeywords": "12564"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3845,7 +3845,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "123"
+                            "withKeywords": "12564"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3859,10 +3859,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🐺",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-werewolves.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-werewolves.jpg"
             },
             {
                 "id": "folder-t16",
@@ -3877,7 +3877,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "130"
+                            "withKeywords": "162846"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3895,7 +3895,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "130"
+                            "withKeywords": "162846"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3909,10 +3909,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👻",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-ghosts.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-ghosts.jpg"
             },
             {
                 "id": "folder-t17",
@@ -3959,10 +3959,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "😈",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-demons.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-demons.jpg"
             },
             {
                 "id": "folder-t18",
@@ -4009,10 +4009,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧙",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-witchcraft-magic.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-witchcraft-magic.jpg"
             },
             {
                 "id": "folder-t19",
@@ -4027,7 +4027,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "11800"
+                            "withKeywords": "209528"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4045,7 +4045,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "11800"
+                            "withKeywords": "209528"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4059,10 +4059,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔮",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/hs4QXgPuKJ4PPwYBWNTod61RKiA.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-curses.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/hs4QXgPuKJ4PPwYBWNTod61RKiA.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-curses.jpg"
             },
             {
                 "id": "folder-t20",
@@ -4077,7 +4077,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1808"
+                            "withKeywords": "3358"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4095,7 +4095,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1808"
+                            "withKeywords": "3358"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4109,10 +4109,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏚️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/yGgEg4yimYQJLZrZg3Qhogp2raQ.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-haunted-house.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/yGgEg4yimYQJLZrZg3Qhogp2raQ.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-haunted-house.jpg"
             },
             {
                 "id": "folder-t21",
@@ -4159,10 +4159,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👹",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-monsters.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-monsters.jpg"
             },
             {
                 "id": "folder-t22",
@@ -4209,10 +4209,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🦸",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-superheroes.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-superheroes.jpg"
             },
             {
                 "id": "folder-t23",
@@ -4227,7 +4227,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "12392"
+                            "withKeywords": "226106"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4245,7 +4245,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "12392"
+                            "withKeywords": "226106"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4259,10 +4259,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧠",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/4Vyrc1SGaBZZ0ZGDq4o6LcEgq1i.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-mind-games.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/4Vyrc1SGaBZZ0ZGDq4o6LcEgq1i.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-mind-games.jpg"
             },
             {
                 "id": "folder-t24",
@@ -4277,7 +4277,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "15483"
+                            "withKeywords": "238137"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4295,7 +4295,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "15483"
+                            "withKeywords": "238137"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4309,10 +4309,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧩",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-mysterious-events.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-mysterious-events.jpg"
             },
             {
                 "id": "folder-t25",
@@ -4327,7 +4327,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "15456"
+                            "withKeywords": "1453"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4345,7 +4345,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "15456"
+                            "withKeywords": "1453"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4359,10 +4359,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧠",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-amnesia.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-amnesia.jpg"
             },
             {
                 "id": "folder-t26",
@@ -4377,7 +4377,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "971"
+                            "withKeywords": "177035"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4395,7 +4395,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "971"
+                            "withKeywords": "177035"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4409,10 +4409,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎭",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/jkvvXaN7FPVKGlk8oj9PL0FHNtj.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-identity-change.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/jkvvXaN7FPVKGlk8oj9PL0FHNtj.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-identity-change.jpg"
             },
             {
                 "id": "folder-t27",
@@ -4427,7 +4427,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1326"
+                            "withKeywords": "10410"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4445,7 +4445,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1326"
+                            "withKeywords": "10410"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4459,10 +4459,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🕵️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-conspiracy.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-conspiracy.jpg"
             },
             {
                 "id": "folder-t28",
@@ -4477,7 +4477,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "395"
+                            "withKeywords": "10349"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4495,7 +4495,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "395"
+                            "withKeywords": "10349"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4509,10 +4509,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏕️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/5fxTB08O7CW1hAcN2MWOKodp1h1.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-survival.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/5fxTB08O7CW1hAcN2MWOKodp1h1.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-survival.jpg"
             },
             {
                 "id": "folder-t29",
@@ -4527,7 +4527,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "10540"
+                            "withKeywords": "5096"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4545,7 +4545,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "10540"
+                            "withKeywords": "5096"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4559,10 +4559,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌋",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/u7kuUaySqXBVAtqEl9vkTkAzHV9.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-natural-disasters.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/u7kuUaySqXBVAtqEl9vkTkAzHV9.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-natural-disasters.jpg"
             },
             {
                 "id": "folder-t30",
@@ -4577,7 +4577,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1667"
+                            "withKeywords": "12617"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4595,7 +4595,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1667"
+                            "withKeywords": "12617"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4609,10 +4609,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "✈️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/9uddYYTNcLWpzUkl5iw1RUYhLhY.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-plane-crashes.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/9uddYYTNcLWpzUkl5iw1RUYhLhY.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-plane-crashes.jpg"
             },
             {
                 "id": "folder-t31",
@@ -4627,7 +4627,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1966"
+                            "withKeywords": "2580"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4645,7 +4645,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1966"
+                            "withKeywords": "2580"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4659,10 +4659,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🚢",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-shipwrecks.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-shipwrecks.jpg"
             },
             {
                 "id": "folder-t32",
@@ -4677,7 +4677,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "2103"
+                            "withKeywords": "261656"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4695,7 +4695,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "2103"
+                            "withKeywords": "261656"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4709,10 +4709,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "☢️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/3L3DUwfRLW18OUiLSdmovfICyY3.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-nuclear-disaster.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/3L3DUwfRLW18OUiLSdmovfICyY3.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-nuclear-disaster.jpg"
             },
             {
                 "id": "folder-t33",
@@ -4759,10 +4759,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💰",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-heist.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-heist.jpg"
             },
             {
                 "id": "folder-t34",
@@ -4777,7 +4777,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "103"
+                            "withKeywords": "10391"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4795,7 +4795,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "103"
+                            "withKeywords": "10391"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4809,10 +4809,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🕴️",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-mafia.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-mafia.jpg"
             },
             {
                 "id": "folder-t35",
@@ -4859,10 +4859,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔪",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-serial-killers.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/hjF1rzTDR7YvnJUcH2SfP48w492.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-serial-killers.jpg"
             },
             {
                 "id": "folder-t36",
@@ -4877,7 +4877,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1701"
+                            "withKeywords": "10685"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4895,7 +4895,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1701"
+                            "withKeywords": "10685"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4909,10 +4909,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏃",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-escape.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-escape.jpg"
             },
             {
                 "id": "folder-t37",
@@ -4959,10 +4959,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔒",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-prison.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/pNjh59JSxChQktamG3LMp9ZoQzp.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-prison.jpg"
             },
             {
                 "id": "folder-t38",
@@ -4977,7 +4977,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1415"
+                            "withKeywords": "782"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4995,7 +4995,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1415"
+                            "withKeywords": "782"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5009,10 +5009,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎯",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/ewy2aJDFtqMzCrDg0wsZ3G2MOpo.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-assassins.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/ewy2aJDFtqMzCrDg0wsZ3G2MOpo.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-assassins.jpg"
             },
             {
                 "id": "folder-t39",
@@ -5027,7 +5027,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1671"
+                            "withKeywords": "282758"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5045,7 +5045,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1671"
+                            "withKeywords": "282758"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5059,10 +5059,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🕵️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/o2wYH40zW0JIYiYUTu6L4gsNy7E.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-spies.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/o2wYH40zW0JIYiYUTu6L4gsNy7E.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-spies.jpg"
             },
             {
                 "id": "folder-t40",
@@ -5077,7 +5077,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "9673"
+                            "withKeywords": "3691"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5095,7 +5095,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "9673"
+                            "withKeywords": "3691"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5109,10 +5109,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💔",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/k22XyPbce7zvzzf5OnT4uaY8ZD1.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-forbidden-love.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/k22XyPbce7zvzzf5OnT4uaY8ZD1.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-forbidden-love.jpg"
             },
             {
                 "id": "folder-t41",
@@ -5127,7 +5127,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1164"
+                            "withKeywords": "4833"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5145,7 +5145,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1164"
+                            "withKeywords": "4833"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5159,10 +5159,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👑",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-kings-queens.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-kings-queens.jpg"
             },
             {
                 "id": "folder-t42",
@@ -5177,7 +5177,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1883"
+                            "withKeywords": "3998"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5195,7 +5195,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1883"
+                            "withKeywords": "3998"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5209,10 +5209,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏰",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-palaces-castles.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-palaces-castles.jpg"
             },
             {
                 "id": "folder-t43",
@@ -5227,7 +5227,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "295"
+                            "withKeywords": "14704"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5245,7 +5245,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "295"
+                            "withKeywords": "14704"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5259,10 +5259,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏺",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-ancient-world.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/8zLS8p1tRyWFLRFfmgQq0j5WE6z.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-ancient-world.jpg"
             },
             {
                 "id": "folder-t44",
@@ -5277,7 +5277,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "3205"
+                            "withKeywords": "5895"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5295,7 +5295,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "3205"
+                            "withKeywords": "5895"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5309,10 +5309,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🛡️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/w0eKUOEog2ImtktCHAMUZws8qif.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-vikings.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/w0eKUOEog2ImtktCHAMUZws8qif.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-vikings.jpg"
             },
             {
                 "id": "folder-t45",
@@ -5327,7 +5327,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1613"
+                            "withKeywords": "1462"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5345,7 +5345,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1613"
+                            "withKeywords": "1462"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5359,10 +5359,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🥷",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/meqmvZjKpQ7WRhpZvIoKIAvioSD.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-samurai.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/meqmvZjKpQ7WRhpZvIoKIAvioSD.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-samurai.jpg"
             },
             {
                 "id": "folder-t46",
@@ -5377,7 +5377,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1394"
+                            "withKeywords": "155573"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5395,7 +5395,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1394"
+                            "withKeywords": "155573"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5409,10 +5409,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🤠",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-wild-west.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-wild-west.jpg"
             },
             {
                 "id": "folder-t47",
@@ -5427,7 +5427,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "134"
+                            "withKeywords": "12988"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5445,7 +5445,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "134"
+                            "withKeywords": "12988"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5459,10 +5459,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏴‍☠️",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-pirates.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-pirates.jpg"
             },
             {
                 "id": "folder-t48",
@@ -5477,7 +5477,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1946"
+                            "withKeywords": "1956"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5495,7 +5495,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1946"
+                            "withKeywords": "1956"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5509,10 +5509,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🪖",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/zeoaHdXRDd5IoUiMVsNhwTZm78B.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-world-war-ii.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/zeoaHdXRDd5IoUiMVsNhwTZm78B.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-world-war-ii.jpg"
             },
             {
                 "id": "folder-t49",
@@ -5527,7 +5527,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "108"
+                            "withKeywords": "282"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5545,7 +5545,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "108"
+                            "withKeywords": "282"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5559,10 +5559,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎮",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/sv2VnbZmgy2rkrtkA2nz7rzH0VK.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-video-games.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/sv2VnbZmgy2rkrtkA2nz7rzH0VK.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-video-games.jpg"
             },
             {
                 "id": "folder-t50",
@@ -5609,10 +5609,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "📚",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-book-adaptations.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-book-adaptations.jpg"
             },
             {
                 "id": "folder-t51",
@@ -5659,10 +5659,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🦹",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-supervillains.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-supervillains.jpg"
             },
             {
                 "id": "folder-t52",
@@ -5677,7 +5677,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "6027"
+                            "withKeywords": "10039"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5695,7 +5695,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "6027"
+                            "withKeywords": "10039"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5709,10 +5709,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏎️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-cars-racing.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-cars-racing.jpg"
             },
             {
                 "id": "folder-t53",
@@ -5727,7 +5727,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "779"
+                            "withKeywords": "14955"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5745,7 +5745,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "779"
+                            "withKeywords": "14955"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5759,10 +5759,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🥊",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-fighting.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-fighting.jpg"
             },
             {
                 "id": "folder-t54",
@@ -5809,10 +5809,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "⚽",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-sports.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/lkDYN0whyE82mcM20rwtwjbniKF.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-sports.jpg"
             },
             {
                 "id": "folder-t55",
@@ -5827,7 +5827,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "3036"
+                            "withKeywords": "188957"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5845,7 +5845,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "3036"
+                            "withKeywords": "188957"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5859,10 +5859,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧟‍♂️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/vDKRMZGFTKP9nQolzeSB1rB1w6p.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-virus-outbreak.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/vDKRMZGFTKP9nQolzeSB1rB1w6p.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-virus-outbreak.jpg"
             },
             {
                 "id": "folder-t56",
@@ -5877,7 +5877,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1568"
+                            "withKeywords": "9678"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5895,7 +5895,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1568"
+                            "withKeywords": "9678"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5909,10 +5909,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧠",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/di47xqYMCYpjqwnqNlO17X5qXMX.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-mind-control.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/di47xqYMCYpjqwnqNlO17X5qXMX.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-mind-control.jpg"
             },
             {
                 "id": "folder-t57",
@@ -5927,7 +5927,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1605"
+                            "withKeywords": "2908"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5945,7 +5945,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "1605"
+                            "withKeywords": "2908"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5959,10 +5959,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👤",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/m0eJc9CwCy5nowYQdNEaxkHHmj4.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-secret-societies.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/m0eJc9CwCy5nowYQdNEaxkHHmj4.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-secret-societies.jpg"
             },
             {
                 "id": "folder-t58",
@@ -5977,7 +5977,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "241221"
+                            "withKeywords": "3593"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5995,7 +5995,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "241221"
+                            "withKeywords": "3593"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6009,10 +6009,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏔️",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/1UTXR1QKRshcluMcYNOurHyea0M.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-wilderness.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/1UTXR1QKRshcluMcYNOurHyea0M.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-wilderness.jpg"
             },
             {
                 "id": "folder-t59",
@@ -6027,7 +6027,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "9726"
+                            "withKeywords": "155746"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6045,7 +6045,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "9726"
+                            "withKeywords": "155746"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6059,10 +6059,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏝️",
                 "focusGifUrl": null,
-                "coverImageUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-deserted-island.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": null
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-deserted-island.jpg"
             },
             {
                 "id": "folder-t60",
@@ -6077,7 +6077,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "8181"
+                            "withKeywords": "189092"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6095,7 +6095,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "8181"
+                            "withKeywords": "189092"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6109,10 +6109,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧳",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/4Xh2a1WeTp6b8Ksvug0pAMbX3dT.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-journey.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/4Xh2a1WeTp6b8Ksvug0pAMbX3dT.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-journey.jpg"
             },
             {
                 "id": "folder-t61",
@@ -6127,7 +6127,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "311"
+                            "withKeywords": "161257"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6145,7 +6145,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "311"
+                            "withKeywords": "161257"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6159,10 +6159,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏹",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/8pwIhymsxfAVjrAE7syDjQULn37.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-middle-ages.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/8pwIhymsxfAVjrAE7syDjQULn37.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-middle-ages.jpg"
             },
             {
                 "id": "folder-t62",
@@ -6209,10 +6209,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌑",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://image.tmdb.org/t/p/w1280/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-dystopia.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://image.tmdb.org/t/p/w1280/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-dystopia.jpg"
             }
         ],
         "pinToTop": false,
