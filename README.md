@@ -45,6 +45,14 @@ For users asking “What should I watch?”, titles recommended and published on
 
 > Have a movie or series you think everyone should watch? Send it to İzlemeli.com.
 
+### 📸 Catalog Screenshots
+
+<p align="center">
+  <img src="screenshots/n1-en.jpg" width="32%">
+  <img src="screenshots/n2-en.jpg" width="32%">
+  <img src="screenshots/n3-en.jpg" width="32%">
+</p>
+
 ## 📦 Collections
 
 Collections provide a deeper browsing structure than individual catalogs.
@@ -65,6 +73,14 @@ Collections include separate sections for movies and series where applicable, wi
 This collection does not replace the catalog addon. Catalogs and collections can be used together.
 
 Collections and catalogs are continuously updated.
+
+### 📸 Collection Screenshots
+
+<p align="center">
+  <img src="screenshots/c1-en.jpg" width="32%">
+  <img src="screenshots/c2-en.jpg" width="32%">
+  <img src="screenshots/c3-en.jpg" width="32%">
+</p>
 
 ## 🌍 Languages
 
@@ -92,10 +108,20 @@ https://izlemeli.github.io/nuvio/tr/manifest.json
 
 ### 📱 Installation Screenshots
 
+#### 📚 Catalog Installation
+
 <p align="center">
   <img src="screenshots/s1-en.jpg" width="32%">
   <img src="screenshots/s2-en.jpg" width="32%">
   <img src="screenshots/s3-en.jpg" width="32%">
+</p>
+
+#### 📦 Collection Installation
+
+<p align="center">
+  <img src="screenshots/cs1-en.jpg" width="32%">
+  <img src="screenshots/cs2-en.jpg" width="32%">
+  <img src="screenshots/cs3-en.jpg" width="32%">
 </p>
 
 ## 📦 Collection Installation
@@ -119,14 +145,6 @@ https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections-en.
 ### 🇹🇷 Turkish Collection
 
 https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="screenshots/n1-en.jpg" width="32%">
-  <img src="screenshots/n2-en.jpg" width="32%">
-  <img src="screenshots/n3-en.jpg" width="32%">
-</p>
 
 ## 🔗 Links
 
@@ -188,6 +206,14 @@ Katalog yalnızca bu kategorilerle sınırlı değildir. Daha fazla tema ve ilgi
 
 > Herkesin izlemesi gerektiğini düşündüğünüz bir film veya dizi mi var? İzlemeli.com'a gönderin.
 
+### 📸 Katalog Ekran Görüntüleri
+
+<p align="center">
+  <img src="screenshots/n1-tr.jpg" width="32%">
+  <img src="screenshots/n2-tr.jpg" width="32%">
+  <img src="screenshots/n3-tr.jpg" width="32%">
+</p>
+
 ## 📦 Koleksiyonlar
 
 Koleksiyonlar, tekil kataloglardan daha detaylı bir gezinme yapısı sunar.
@@ -208,6 +234,14 @@ Koleksiyonlarda uygun bölümlerde film ve diziler ayrı olarak listelenir; Yeni
 Bu koleksiyon katalog eklentisinin yerine geçmez. Kataloglar ve koleksiyonlar birlikte kullanılabilir.
 
 Kataloglar ve koleksiyonlar sürekli olarak güncellenmektedir.
+
+### 📸 Koleksiyon Ekran Görüntüleri
+
+<p align="center">
+  <img src="screenshots/c1-tr.jpg" width="32%">
+  <img src="screenshots/c2-tr.jpg" width="32%">
+  <img src="screenshots/c3-tr.jpg" width="32%">
+</p>
 
 ## 🌍 Dil Seçenekleri
 
@@ -237,10 +271,20 @@ https://izlemeli.github.io/nuvio/tr/manifest.json
 
 ### 📱 Kurulum Ekran Görüntüleri
 
+#### 📚 Katalog İçin Kurulum
+
 <p align="center">
   <img src="screenshots/s1-tr.jpg" width="32%">
   <img src="screenshots/s2-tr.jpg" width="32%">
   <img src="screenshots/s3-tr.jpg" width="32%">
+</p>
+
+#### 📦 Koleksiyon İçin Kurulum
+
+<p align="center">
+  <img src="screenshots/cs1-tr.jpg" width="32%">
+  <img src="screenshots/cs2-tr.jpg" width="32%">
+  <img src="screenshots/cs3-tr.jpg" width="32%">
 </p>
 
 ## 📦 Koleksiyon Kurulumu
@@ -264,14 +308,6 @@ https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.jso
 ### 🇬🇧 İngilizce Koleksiyon
 
 https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections-en.json
-
-## 📸 Ekran Görüntüleri
-
-<p align="center">
-  <img src="screenshots/n1-tr.jpg" width="32%">
-  <img src="screenshots/n2-tr.jpg" width="32%">
-  <img src="screenshots/n3-tr.jpg" width="32%">
-</p>
 
 ## 🔗 Bağlantılar
 
