@@ -127,10 +127,10 @@
                 "hideTitle": false,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
-                "focusGifUrl": null,
+                "focusGifUrl": "https://i.imgur.com/D4BotS0.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-netflix.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": false,
+                "focusGifEnabled": true,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-netflix.jpg"
             },
             {
@@ -257,10 +257,10 @@
                 "hideTitle": false,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
-                "focusGifUrl": null,
+                "focusGifUrl": "https://i.imgur.com/U0fiQD2.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-disney.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": false,
+                "focusGifEnabled": true,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-disney.jpg"
             },
             {
@@ -387,10 +387,10 @@
                 "hideTitle": false,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
-                "focusGifUrl": null,
+                "focusGifUrl": "https://i.imgur.com/EC86GDK.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-prime-video.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": false,
+                "focusGifEnabled": true,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-prime-video.jpg"
             },
             {
@@ -517,10 +517,10 @@
                 "hideTitle": false,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
-                "focusGifUrl": null,
+                "focusGifUrl": "https://i.imgur.com/HosrvBs.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-hbo-max.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": false,
+                "focusGifEnabled": true,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-hbo-max.jpg"
             },
             {
@@ -647,10 +647,10 @@
                 "hideTitle": false,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
-                "focusGifUrl": null,
+                "focusGifUrl": "https://i.imgur.com/zyygKMv.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-apple-tv.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": false,
+                "focusGifEnabled": true,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-apple-tv.jpg"
             }
         ],
