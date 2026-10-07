@@ -130,7 +130,7 @@
                 "focusGifUrl": "https://i.imgur.com/D4BotS0.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-netflix.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": true,
+                "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-netflix.jpg"
             },
             {
@@ -260,7 +260,7 @@
                 "focusGifUrl": "https://i.imgur.com/U0fiQD2.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-disney.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": true,
+                "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-disney.jpg"
             },
             {
@@ -390,7 +390,7 @@
                 "focusGifUrl": "https://i.imgur.com/EC86GDK.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-prime-video.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": true,
+                "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-prime-video.jpg"
             },
             {
@@ -520,7 +520,7 @@
                 "focusGifUrl": "https://i.imgur.com/HosrvBs.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-hbo-max.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": true,
+                "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-hbo-max.jpg"
             },
             {
@@ -650,7 +650,7 @@
                 "focusGifUrl": "https://i.imgur.com/zyygKMv.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-apple-tv.jpg",
                 "catalogSources": [],
-                "focusGifEnabled": true,
+                "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/platforms-apple-tv.jpg"
             }
         ],
