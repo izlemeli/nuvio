@@ -6215,7 +6215,7 @@
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/themes-dystopia.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
         "showAllTab": false,
         "backdropImageUrl": null,
