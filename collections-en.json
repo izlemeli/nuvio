@@ -3071,7 +3071,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3089,13 +3089,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "9672"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "9672",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "9672",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3121,7 +3159,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3139,13 +3177,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "12377"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "12377",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "12377",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3171,7 +3247,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3189,13 +3265,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "9882"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "9882",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "9882",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3221,7 +3335,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3239,13 +3353,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "9951"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "9951",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "9951",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3271,7 +3423,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3289,13 +3441,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "4379"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "4379",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "4379",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3321,7 +3511,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3339,13 +3529,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10854"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10854",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10854",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3371,7 +3599,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3389,13 +3617,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "243230"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "243230",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "243230",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3421,7 +3687,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3439,13 +3705,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "310"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "310",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "310",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3471,7 +3775,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3489,13 +3793,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "14544"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "14544",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "14544",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3521,7 +3863,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3539,13 +3881,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "240435"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "240435",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "240435",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3571,7 +3951,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3589,13 +3969,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "4563"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "4563",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "4563",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3621,7 +4039,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3639,13 +4057,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "4458"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "4458",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "4458",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3671,7 +4127,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3689,13 +4145,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10150"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10150",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10150",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3721,7 +4215,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3739,13 +4233,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "17995"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "17995",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "17995",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3771,7 +4303,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3789,13 +4321,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "3133"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "3133",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "3133",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3821,7 +4391,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3839,13 +4409,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "12564"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "12564",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "12564",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3871,7 +4479,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3889,13 +4497,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "162846"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "162846",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "162846",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3921,7 +4567,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3939,13 +4585,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "6152"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "6152",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "6152",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -3971,7 +4655,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -3989,13 +4673,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "616"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "616",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "616",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4021,7 +4743,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4039,13 +4761,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "209528"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "209528",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "209528",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4071,7 +4831,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4089,13 +4849,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "3358"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "3358",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "3358",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4121,7 +4919,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4139,13 +4937,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "1299"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "1299",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "1299",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4171,7 +5007,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4189,13 +5025,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "9715"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "9715",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "9715",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4221,7 +5095,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4239,13 +5113,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "226106"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "226106",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "226106",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4271,7 +5183,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4289,13 +5201,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "238137"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "238137",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "238137",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4321,7 +5271,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4339,13 +5289,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "1453"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "1453",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "1453",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4371,7 +5359,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4389,13 +5377,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "177035"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "177035",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "177035",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4421,7 +5447,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4439,13 +5465,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10410"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10410",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10410",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4471,7 +5535,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4489,13 +5553,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10349"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10349",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10349",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4521,7 +5623,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4539,13 +5641,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "5096"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "5096",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "5096",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4571,7 +5711,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4589,13 +5729,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "12617"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "12617",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "12617",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4621,7 +5799,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4639,13 +5817,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "2580"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "2580",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "2580",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4671,7 +5887,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4689,13 +5905,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "204146"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "204146",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "204146",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4721,7 +5975,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4739,13 +5993,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10051"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10051",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10051",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4771,7 +6063,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4789,13 +6081,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10391"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10391",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10391",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4821,7 +6151,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4839,13 +6169,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10714"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10714",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10714",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4871,7 +6239,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4889,13 +6257,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10685"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10685",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10685",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4921,7 +6327,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4939,13 +6345,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "378"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "378",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "378",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4971,7 +6415,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -4989,13 +6433,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "782"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "782",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "782",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5021,7 +6503,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5039,13 +6521,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "282758"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "282758",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "282758",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5071,7 +6591,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5089,13 +6609,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "3691"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "3691",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "3691",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5121,7 +6679,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5139,13 +6697,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "4833"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "4833",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "4833",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5171,7 +6767,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5189,13 +6785,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "3998"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "3998",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "3998",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5221,7 +6855,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5239,13 +6873,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "14704"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "14704",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "14704",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5271,7 +6943,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5289,13 +6961,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "5895"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "5895",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "5895",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5321,7 +7031,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5339,13 +7049,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "1462"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "1462",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "1462",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5371,7 +7119,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5389,13 +7137,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "155573"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "155573",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "155573",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5421,7 +7207,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5439,13 +7225,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "12988"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "12988",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "12988",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5471,7 +7295,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5489,13 +7313,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "1956"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "1956",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "1956",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5521,7 +7383,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5539,13 +7401,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "282"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "282",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "282",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5571,7 +7471,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5589,13 +7489,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "818"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "818",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "818",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5621,7 +7559,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5639,13 +7577,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "163074"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "163074",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "163074",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5671,7 +7647,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5689,13 +7665,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "10039"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "10039",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "10039",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5721,7 +7735,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5739,13 +7753,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "14955"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "14955",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "14955",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5771,7 +7823,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5789,13 +7841,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "6075"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "6075",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "6075",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5821,7 +7911,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5839,13 +7929,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "188957"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "188957",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "188957",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5871,7 +7999,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5889,13 +8017,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "9678"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "9678",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "9678",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5921,7 +8087,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5939,13 +8105,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "2908"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "2908",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "2908",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -5971,7 +8175,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -5989,13 +8193,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "3593"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "3593",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "3593",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6021,7 +8263,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -6039,13 +8281,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "155746"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "155746",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "155746",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6071,7 +8351,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -6089,13 +8369,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "189092"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "189092",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "189092",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6121,7 +8439,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -6139,13 +8457,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "161257"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "161257",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "161257",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -6171,7 +8527,7 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Movies",
+                        "title": "Popular Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -6189,13 +8545,51 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Series",
+                        "title": "Popular Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
                             "withKeywords": "4565"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withKeywords": "4565",
+                            "voteAverageGte": 6.5
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withKeywords": "4565",
+                            "voteAverageGte": 7
                         },
                         "sortHow": null,
                         "provider": "tmdb",
