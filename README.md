@@ -126,15 +126,14 @@ https://izlemeli.github.io/nuvio/tr/manifest.json
 
 Collections can be imported through **nuvio.tv**.
 
-1. Open https://nuvio.tv/
-2. Sign in to your Nuvio account.
-3. Go to **Account → Collections**.
-4. Select **Import**.
-5. Open the collection JSON link below.
-6. Copy the full JSON content.
-7. Paste it into the import field.
-8. Confirm the import.
-9. The collection will be added to your account and synced with Nuvio.
+1. Open the collection (JSON) link on GitHub.
+2. Download the file to your computer (use "Download raw file" or the download icon at the top right). Make sure it is saved with a .json extension.
+3. Go to https://nuvio.tv/ and sign in with your Nuvio account.
+4. Open Account → Collections.
+5. Click Import.
+6. Select and upload the .json file you downloaded.
+7. Confirm the import.
+8. The collection will be added to your account and synced with Nuvio.
 
 ### 🇬🇧 English Collection
 
@@ -287,15 +286,14 @@ https://izlemeli.github.io/nuvio/tr/manifest.json
 
 Koleksiyonlar **nuvio.tv** üzerinden içe aktarılabilir.
 
-1. https://nuvio.tv/ adresini açın.
-2. Nuvio hesabınızla giriş yapın.
-3. **Account → Collections** bölümüne girin.
-4. **Import** seçeneğini açın.
-5. Aşağıdaki koleksiyon JSON bağlantısını açın.
-6. JSON içeriğinin tamamını kopyalayın.
-7. Import alanına yapıştırın.
-8. İçe aktarmayı onaylayın.
-9. Koleksiyon hesabınıza eklenir ve Nuvio ile senkronize edilir.
+1. GitHub'daki koleksiyon (JSON) bağlantısını açın.
+2. Dosyayı bilgisayarınıza indirin (Download raw file veya sağ üstteki indirme simgesi). Dosya .json uzantılı olmalıdır.
+3. https://nuvio.tv/ adresini açın ve Nuvio hesabınızla giriş yapın.
+4. Account → Collections bölümüne girin.
+5. Import seçeneğini açın.
+6. İndirdiğiniz .json dosyasını seçin ve yükleyin.
+7. İçe aktarmayı onaylayın.
+8. Koleksiyon hesabınıza eklenir ve Nuvio ile senkronize edilir.
 
 ### 🇹🇷 Türkçe Koleksiyon
 
