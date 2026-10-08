@@ -77,9 +77,8 @@ Collections and catalogs are continuously updated.
 ### 📸 Collection Screenshots
 
 <p align="center">
-  <img src="screenshots/c1-en.jpg" width="32%">
-  <img src="screenshots/c2-en.jpg" width="32%">
-  <img src="screenshots/c3-en.jpg" width="32%">
+  <img src="screenshots/cen1.jpg" width="49%">
+  <img src="screenshots/cen2.jpg" width="49%">
 </p>
 
 ## 🌍 Languages
@@ -119,9 +118,8 @@ https://izlemeli.github.io/nuvio/tr/manifest.json
 #### 📦 Collection Installation
 
 <p align="center">
-  <img src="screenshots/cs1-en.jpg" width="32%">
-  <img src="screenshots/cs2-en.jpg" width="32%">
-  <img src="screenshots/cs3-en.jpg" width="32%">
+  <img src="screenshots/sc-0.jpg" width="49%">
+  <img src="screenshots/sc-1.jpg" width="49%">
 </p>
 
 ## 📦 Collection Installation
@@ -238,9 +236,8 @@ Kataloglar ve koleksiyonlar sürekli olarak güncellenmektedir.
 ### 📸 Koleksiyon Ekran Görüntüleri
 
 <p align="center">
-  <img src="screenshots/c1-tr.jpg" width="32%">
-  <img src="screenshots/c2-tr.jpg" width="32%">
-  <img src="screenshots/c3-tr.jpg" width="32%">
+  <img src="screenshots/ctr1.jpg" width="49%">
+  <img src="screenshots/ctr2.jpg" width="49%">
 </p>
 
 ## 🌍 Dil Seçenekleri
@@ -282,9 +279,8 @@ https://izlemeli.github.io/nuvio/tr/manifest.json
 #### 📦 Koleksiyon İçin Kurulum
 
 <p align="center">
-  <img src="screenshots/cs1-tr.jpg" width="32%">
-  <img src="screenshots/cs2-tr.jpg" width="32%">
-  <img src="screenshots/cs3-tr.jpg" width="32%">
+  <img src="screenshots/sc-0.jpg" width="49%">
+  <img src="screenshots/sc-1.jpg" width="49%">
 </p>
 
 ## 📦 Koleksiyon Kurulumu
