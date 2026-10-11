@@ -10,6 +10,18 @@ const IZL_URL = (process.env.IZL_URL || '').trim();
 const UA = 'nuvio-katalog-build/1.0';
 const CONCURRENCY = 8;
 const TYPES_FILE = '.cache/izl-types.json';
+const IMDB_FILE = '.cache/imdb.json';
+const CHECK_FILE = '.cache/poster-check.json';
+const IMDB_RETRY_MS = 7 * 24 * 3600 * 1000;
+const CHECK_OK_MS = 30 * 24 * 3600 * 1000;
+const CHECK_FAIL_MS = 7 * 24 * 3600 * 1000;
+const IMDB_CONCURRENCY = 8;
+const IMDB_GAP_MS = 30;
+const CHECK_CONCURRENCY = 3;
+const CHECK_GAP_MS = 100;
+const CHECK_TIMEOUT_MS = 15000;
+const BREAKER = 15;
+const POSTER_MODES = ['izl', 'cats', 'all'];
 
 const fail = (m) => { console.error('✗ ' + m); process.exit(1); };
 
@@ -100,14 +112,209 @@ function discoverParams(t, c, page, lang) {
   return p;
 }
 
-function toMeta(t, r) {
+function toMeta(t, r, poster) {
   const title = t === 'tv' ? r.name || '' : r.title || '';
   const date = t === 'tv' ? r.first_air_date || '' : r.release_date || '';
   const m = { id: 'tmdb:' + r.id, type: t === 'tv' ? 'series' : 'movie', name: title, releaseInfo: date.slice(0, 4) };
-  if (r.poster_path) m.poster = 'https://image.tmdb.org/t/p/w500' + r.poster_path;
+  if (poster) m.poster = poster;
+  else if (r.poster_path) m.poster = 'https://image.tmdb.org/t/p/w500' + r.poster_path;
   if (r.backdrop_path) m.background = 'https://image.tmdb.org/t/p/w1280' + r.backdrop_path;
   if (r.overview) m.description = r.overview;
   return m;
+}
+
+function cleanImdb(v) {
+  const s = String(v ?? '').trim().toLowerCase();
+  if (/^tt\d{5,}$/.test(s)) return s;
+  if (/^\d{5,}$/.test(s)) return 'tt' + s;
+  return null;
+}
+
+function posterConfig(cfg) {
+  const p = cfg && cfg.poster && typeof cfg.poster === 'object' ? cfg.poster : null;
+  if (!p || !POSTER_MODES.includes(p.mode)) return null;
+  const tpl = (v) => {
+    const s = String(v ?? '').trim();
+    return /^https?:\/\//i.test(s) && s.includes('{imdb_id}') ? s : null;
+  };
+  const pat = { tr: tpl(p.tr), en: tpl(p.en) };
+  if (!pat.tr && !pat.en) return null;
+  return { mode: p.mode, pat, verify: p.verify === 1 || p.verify === true || p.verify === '1' };
+}
+
+let paceAt = 0;
+async function pace(gap) {
+  const now = Date.now();
+  const at = Math.max(now, paceAt);
+  paceAt = at + gap;
+  if (at > now) await sleep(at - now);
+}
+
+async function readJson(file) {
+  try {
+    const j = JSON.parse(await readFile(file, 'utf8'));
+    return j && typeof j === 'object' && !Array.isArray(j) ? j : {};
+  } catch { return {}; }
+}
+
+async function lookupImdb(need, warns) {
+  const cache = await readJson(IMDB_FILE);
+  const now = Date.now();
+  const found = new Map();
+  const todo = [];
+  for (const [k, v] of need) {
+    const e = cache[k];
+    const hit = typeof e === 'string' ? cleanImdb(e) : null;
+    if (hit) found.set(k, hit);
+    else if (e && typeof e === 'object' && now - Date.parse(e.miss) < IMDB_RETRY_MS) continue;
+    else todo.push([k, v]);
+  }
+  let changed = false;
+  let streak = 0;
+  let stopped = false;
+  await pool(todo.map(([k, v]) => async () => {
+    if (streak >= BREAKER) {
+      if (!stopped) { stopped = true; warns.push(`IMDb sorguları art arda ${BREAKER} kez başarısız; kalanlar atlandı, bu içerikler TMDB posteriyle kalır.`); }
+      return;
+    }
+    try {
+      await pace(IMDB_GAP_MS);
+      const r = await tmdb(`/${v.t}/${v.id}/external_ids`, {}, { allow404: true });
+      const imdb = r ? cleanImdb(r.imdb_id) : null;
+      if (imdb) { cache[k] = imdb; found.set(k, imdb); }
+      else cache[k] = { miss: new Date().toISOString().slice(0, 10) };
+      changed = true;
+      streak = 0;
+    } catch (e) {
+      streak++;
+      warns.push(`IMDb ${k}: ${e.message}`);
+    }
+  }), IMDB_CONCURRENCY);
+  if (changed) {
+    try {
+      await mkdir(path.dirname(IMDB_FILE), { recursive: true });
+      await writeFile(IMDB_FILE, JSON.stringify(cache));
+    } catch (e) { warns.push('IMDb önbelleği yazılamadı: ' + e.message); }
+  }
+  return { found, asked: todo.length, cached: need.size - todo.length };
+}
+
+async function probePoster(url) {
+  for (const method of ['HEAD', 'GET']) {
+    let r;
+    try {
+      const headers = { 'User-Agent': UA, Accept: 'image/*' };
+      if (method === 'GET') headers.Range = 'bytes=0-0';
+      r = await fetch(url, { method, headers, redirect: 'follow', signal: AbortSignal.timeout(CHECK_TIMEOUT_MS) });
+    } catch (e) { return { err: e.message }; }
+    if (method === 'GET') { try { await r.body.cancel(); } catch { } }
+    if (r.ok) {
+      const ct = String(r.headers.get('content-type') || '');
+      return { ok: !ct || /^image\//i.test(ct) };
+    }
+    if (method === 'HEAD' && (r.status === 405 || r.status === 501)) continue;
+    if (r.status === 429 || r.status >= 500) return { err: 'HTTP ' + r.status };
+    return { ok: false };
+  }
+  return { ok: false };
+}
+
+async function posterHealthy(urls) {
+  for (const u of urls.slice(0, 3)) {
+    const r = await probePoster(u);
+    if (!r.err) return true;
+  }
+  return false;
+}
+
+async function verifyPosters(urls, warns) {
+  const cache = await readJson(CHECK_FILE);
+  const now = Date.now();
+  const okSet = new Set();
+  const todo = [];
+  for (const u of urls) {
+    const e = cache[u];
+    const ttl = e && e.ok ? CHECK_OK_MS : CHECK_FAIL_MS;
+    if (e && typeof e.t === 'number' && now - e.t < ttl) { if (e.ok) okSet.add(u); }
+    else todo.push(u);
+  }
+  let changed = false;
+  let streak = 0;
+  let stopped = false;
+  await pool(todo.map((u) => async () => {
+    if (streak >= BREAKER) {
+      if (!stopped) { stopped = true; warns.push(`Poster doğrulaması art arda ${BREAKER} kez ulaşılamadı; kalanlar atlandı, bu içerikler TMDB posteriyle kalır.`); }
+      return;
+    }
+    await pace(CHECK_GAP_MS);
+    const res = await probePoster(u);
+    if (res.err) { streak++; warns.push(`Poster doğrulama ${u}: ${res.err}`); return; }
+    streak = 0;
+    cache[u] = { ok: res.ok, t: Date.now() };
+    changed = true;
+    if (res.ok) okSet.add(u);
+  }), CHECK_CONCURRENCY);
+  const keep = {};
+  for (const [u, e] of Object.entries(cache)) {
+    if (e && typeof e.t === 'number' && now - e.t < (e.ok ? CHECK_OK_MS : CHECK_FAIL_MS)) keep[u] = e;
+  }
+  if (changed) {
+    try {
+      await mkdir(path.dirname(CHECK_FILE), { recursive: true });
+      await writeFile(CHECK_FILE, JSON.stringify(keep));
+    } catch (e) { warns.push('Poster doğrulama önbelleği yazılamadı: ' + e.message); }
+  }
+  return { okSet, asked: todo.length, cached: urls.size - todo.length };
+}
+
+async function preparePosters(pc, jobs, izlItems, izlDet, codes, warns) {
+  const active = codes.filter((c) => pc.pat[c]);
+  const catOn = (j) => pc.mode === 'all' || (pc.mode === 'cats' && !!j.c.poster);
+  const izlOn = pc.mode === 'izl' || pc.mode === 'all';
+  const url = (code, imdb) => pc.pat[code].split('{imdb_id}').join(imdb);
+
+  const need = new Map();
+  for (const j of jobs) {
+    if (!active.includes(j.code) || !catOn(j) || !j.items) continue;
+    for (const x of j.items) need.set(x.t + ':' + x.r.id, { t: x.t, id: x.r.id });
+  }
+  const imdb = need.size ? await lookupImdb(need, warns) : { found: new Map(), asked: 0, cached: 0 };
+
+  const candBy = {};
+  for (const c of active) candBy[c] = new Set();
+  if (izlOn && izlDet) {
+    for (const i of izlItems) if (i.imdb) for (const c of active) if (izlDet[c][i.id]) candBy[c].add(url(c, i.imdb));
+  }
+  for (const j of jobs) {
+    if (!active.includes(j.code) || !catOn(j) || !j.items) continue;
+    for (const x of j.items) {
+      const im = imdb.found.get(x.t + ':' + x.r.id);
+      if (im) candBy[j.code].add(url(j.code, im));
+    }
+  }
+  const down = new Set();
+  for (const c of active) {
+    if (candBy[c].size && !(await posterHealthy([...candBy[c]]))) {
+      down.add(c);
+      candBy[c].clear();
+      warns.push(`Poster servisine ulaşılamadı (${c}); bu dilde tüm içerikler TMDB posteriyle yazıldı.`);
+    }
+  }
+  const cand = new Set();
+  for (const c of active) for (const u of candBy[c]) cand.add(u);
+  let ver = null;
+  if (pc.verify && cand.size) ver = await verifyPosters(cand, warns);
+
+  const pick = (code, im) => {
+    if (!im || !pc.pat[code] || down.has(code)) return null;
+    const u = url(code, im);
+    return !pc.verify || (ver && ver.okSet.has(u)) ? u : null;
+  };
+  console.log(`Poster: mod=${pc.mode} · diller=${active.join(',')} · IMDb sorgusu=${imdb.asked} (önbellekten=${imdb.cached}) · aday adres=${cand.size}` + (ver ? ` · doğrulama sorgusu=${ver.asked} (önbellekten=${ver.cached}), geçen=${ver.okSet.size}` : ''));
+  return {
+    izl: (code, d) => (izlOn ? pick(code, d.imdb) : null),
+    cat: (code, j, x) => (catOn(j) ? pick(code, imdb.found.get(x.t + ':' + x.r.id)) : null),
+  };
 }
 
 async function loadIzlItems(izl) {
@@ -123,7 +330,7 @@ async function loadIzlItems(izl) {
     if (!id || seen.has(id)) continue;
     seen.add(id);
     const cats = String(x.taksonomi_category ?? '').split(',').map((c) => c.trim());
-    items.push({ id, hint: cats.includes('Diziler') });
+    items.push({ id, hint: cats.includes('Diziler'), imdb: cleanImdb(x.imdb_id) });
   }
   return izl.sort === 'site' ? items : items.reverse();
 }
@@ -163,7 +370,7 @@ async function fetchPage(types, cat, page, lang) {
   const lists = res.map((r) => r.results || []);
   const max = Math.max(...lists.map((l) => l.length));
   const metas = [];
-  for (let i = 0; i < max; i++) types.forEach((t, k) => { if (lists[k][i]) metas.push(toMeta(t, lists[k][i])); });
+  for (let i = 0; i < max; i++) types.forEach((t, k) => { if (lists[k][i]) metas.push({ t, r: lists[k][i] }); });
   return metas;
 }
 
@@ -227,6 +434,15 @@ async function main() {
     fail(`${errors.length} istek başarısız; mevcut yayın korunuyor.`);
   }
 
+  jobs.forEach((j, i) => { j.items = results[i]; });
+  const pc = posterConfig(cfg);
+  const warns = [];
+  const posters = pc ? await preparePosters(pc, jobs, izlItems, izlDet, codes, warns) : null;
+  if (warns.length) {
+    console.warn(`! ${warns.length} poster uyarısı (üretim sürüyor):`);
+    console.warn(warns.slice(0, 10).join('\n'));
+  }
+
   await rm(OUT, { recursive: true, force: true });
   let fileCount = 0;
   const put = async (rel, data) => {
@@ -240,13 +456,11 @@ async function main() {
     if (code === defaultCode) await put(rel, data);
   };
 
-  jobs.forEach((j, i) => { j.metas = results[i]; });
-
   for (const code of codes) {
     const catalogs = [];
     const extra = [{ name: 'skip', isRequired: false }];
     if (izlDet) {
-      const valid = izlItems.filter((i) => izlDet[code][i.id]).map((i) => izlDet[code][i.id]);
+      const valid = izlItems.filter((i) => izlDet[code][i.id]).map((i) => ({ ...izlDet[code][i.id], imdb: i.imdb }));
       const name = code === 'en' && String(izlCfg.title_en || '').trim() ? izlCfg.title_en : izlCfg.title || 'izlemeli.com önerileri';
       const groups = mix === 'split'
         ? [{ id: 'nvk-izl-m', type: 'movie', list: valid.filter((d) => d.t === 'movie') },
@@ -258,7 +472,7 @@ async function main() {
         const PER = 100;
         const nPages = Math.ceil(g.list.length / PER);
         for (let k = 0; k < nPages; k++) {
-          const metas = g.list.slice(k * PER, (k + 1) * PER).map((d) => toMeta(d.t, d.r));
+          const metas = g.list.slice(k * PER, (k + 1) * PER).map((d) => toMeta(d.t, d.r, posters ? posters.izl(code, d) : null));
           if (k === 0) await emit(code, `catalog/${g.type}/${g.id}.json`, { metas });
           await emit(code, `catalog/${g.type}/${g.id}/skip=${k * PER}.json`, { metas });
         }
@@ -274,8 +488,9 @@ async function main() {
         const mine = jobs.filter((j) => j.code === code && j.c === c && j.e === e);
         for (const j of mine) {
           const skip = (j.p - 1) * per;
-          if (j.p === 1) await emit(code, `catalog/${e.type}/${e.id}.json`, { metas: j.metas });
-          await emit(code, `catalog/${e.type}/${e.id}/skip=${skip}.json`, { metas: j.metas });
+          const metas = j.items.map((x) => toMeta(x.t, x.r, posters ? posters.cat(code, j, x) : null));
+          if (j.p === 1) await emit(code, `catalog/${e.type}/${e.id}.json`, { metas });
+          await emit(code, `catalog/${e.type}/${e.id}/skip=${skip}.json`, { metas });
         }
         await emit(code, `catalog/${e.type}/${e.id}/skip=${pages * per}.json`, { metas: [] });
       }
