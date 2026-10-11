@@ -1323,7 +1323,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 1000
+                            "voteCountGte": 5000
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1340,7 +1340,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 500
+                            "voteCountGte": 1500
                         },
                         "sortHow": null,
                         "provider": "tmdb",
