@@ -1864,9 +1864,9 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 5,
                             "withGenres": "99",
-                            "withKeywords": "221355"
+                            "withKeywords": "221355|274835"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1883,9 +1883,9 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 1,
                             "withGenres": "99",
-                            "withKeywords": "221355"
+                            "withKeywords": "221355|274835"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1897,14 +1897,14 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Hayvanlar Filmleri",
+                        "title": "Hayvanlar ve Yaban Hayatı Filmleri",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 5,
                             "withGenres": "99",
-                            "withKeywords": "11338"
+                            "withKeywords": "9902|11338|211505"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1916,14 +1916,14 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Hayvanlar Dizileri",
+                        "title": "Hayvanlar ve Yaban Hayatı Dizileri",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 1,
                             "withGenres": "99",
-                            "withKeywords": "11338"
+                            "withKeywords": "9902|11338|211505"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1935,14 +1935,14 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Okyanus Filmleri",
+                        "title": "Okyanus ve Deniz Canlıları Filmleri",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 5,
                             "withGenres": "99",
-                            "withKeywords": "247510"
+                            "withKeywords": "247510|240494|195857"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1954,128 +1954,14 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Okyanus Dizileri",
+                        "title": "Okyanus ve Deniz Canlıları Dizileri",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 1,
                             "withGenres": "99",
-                            "withKeywords": "247510"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Balıklar ve Deniz Canlıları Filmleri",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "240494|195857"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Balıklar ve Deniz Canlıları Dizileri",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "240494|195857"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Yaban Hayatı ve Koruma Filmleri",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "211505"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Yaban Hayatı ve Koruma Dizileri",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "211505"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Ekosistem Filmleri",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "274835"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Ekosistem Dizileri",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "274835"
+                            "withKeywords": "247510|240494|195857"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
