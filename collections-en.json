@@ -2112,9 +2112,9 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 5,
                             "withGenres": "99",
-                            "withKeywords": "221355"
+                            "withKeywords": "221355|274835"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -2131,9 +2131,9 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 1,
                             "withGenres": "99",
-                            "withKeywords": "221355"
+                            "withKeywords": "221355|274835"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -2145,14 +2145,14 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Animals Movies",
+                        "title": "Animals & Wildlife Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 5,
                             "withGenres": "99",
-                            "withKeywords": "11338"
+                            "withKeywords": "9902|11338|211505"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -2164,14 +2164,14 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Animals Series",
+                        "title": "Animals & Wildlife Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 1,
                             "withGenres": "99",
-                            "withKeywords": "11338"
+                            "withKeywords": "9902|11338|211505"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -2183,14 +2183,14 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Ocean Movies",
+                        "title": "Ocean & Marine Life Movies",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 5,
                             "withGenres": "99",
-                            "withKeywords": "247510"
+                            "withKeywords": "247510|240494|195857"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -2202,128 +2202,14 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Ocean Series",
+                        "title": "Ocean & Marine Life Series",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 1,
                             "withGenres": "99",
-                            "withKeywords": "247510"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Fish & Marine Life Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "240494|195857"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Fish & Marine Life Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "240494|195857"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Wildlife Conservation Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "211505"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Wildlife Conservation Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "211505"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Ecosystems Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "274835"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Ecosystems Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withGenres": "99",
-                            "withKeywords": "274835"
+                            "withKeywords": "247510|240494|195857"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
