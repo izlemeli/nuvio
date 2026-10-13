@@ -1855,6 +1855,422 @@
                         "mediaType": "TV",
                         "traktListId": null,
                         "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Doğa Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "221355"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Doğa Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "221355"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Hayvanlar Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "11338"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Hayvanlar Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "11338"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Okyanus Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "247510"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Okyanus Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "247510"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Balıklar ve Deniz Canlıları Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "240494|195857"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Balıklar ve Deniz Canlıları Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "240494|195857"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yaban Hayatı ve Koruma Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "211505"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yaban Hayatı ve Koruma Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "211505"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Ekosistem Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "274835"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Ekosistem Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "274835"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Uzay Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "9882"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Uzay Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "9882"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Tarih Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "321490"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Tarih Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "321490"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Suç Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99,80"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Suç Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99,80"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Müzik Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "246377"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Müzik Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "246377"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Spor Filmleri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "6075"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Spor Dizileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withGenres": "99",
+                            "withKeywords": "6075"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
                     }
                 ],
                 "hideTitle": false,
