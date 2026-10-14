@@ -124,7 +124,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/D4BotS0.gif",
@@ -254,7 +254,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/U0fiQD2.gif",
@@ -384,7 +384,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/EC86GDK.gif",
@@ -514,7 +514,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/HosrvBs.gif",
@@ -644,7 +644,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/zyygKMv.gif",
@@ -774,7 +774,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/clhOp9J.gif",
@@ -904,7 +904,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/vgpNYV7.gif",
@@ -1034,7 +1034,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/gdOrrGY.gif",
@@ -1164,7 +1164,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/akZooOI.gif",
@@ -1204,7 +1204,7 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": null,
@@ -1254,7 +1254,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🆕",
                 "focusGifUrl": null,
@@ -1302,7 +1302,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔥",
                 "focusGifUrl": null,
@@ -1350,7 +1350,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "⭐",
                 "focusGifUrl": null,
@@ -1485,7 +1485,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👨‍👩‍👧",
                 "focusGifUrl": null,
@@ -1609,7 +1609,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💥",
                 "focusGifUrl": null,
@@ -1733,7 +1733,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎨",
                 "focusGifUrl": null,
@@ -2159,7 +2159,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎥",
                 "focusGifUrl": null,
@@ -2283,7 +2283,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🚀",
                 "focusGifUrl": null,
@@ -2407,7 +2407,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎭",
                 "focusGifUrl": null,
@@ -2531,7 +2531,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧙",
                 "focusGifUrl": null,
@@ -2655,7 +2655,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "😰",
                 "focusGifUrl": null,
@@ -2779,7 +2779,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔎",
                 "focusGifUrl": null,
@@ -2903,7 +2903,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "😂",
                 "focusGifUrl": null,
@@ -3027,7 +3027,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👻",
                 "focusGifUrl": null,
@@ -3151,7 +3151,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧭",
                 "focusGifUrl": null,
@@ -3275,7 +3275,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎵",
                 "focusGifUrl": null,
@@ -3399,7 +3399,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💕",
                 "focusGifUrl": null,
@@ -3523,7 +3523,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "⚔️",
                 "focusGifUrl": null,
@@ -3647,7 +3647,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🕵️",
                 "focusGifUrl": null,
@@ -3771,7 +3771,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏛️",
                 "focusGifUrl": null,
@@ -3895,7 +3895,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🤠",
                 "focusGifUrl": null,
@@ -3994,7 +3994,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🪖",
                 "focusGifUrl": null,
@@ -4082,7 +4082,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧠",
                 "focusGifUrl": null,
@@ -4170,7 +4170,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏺",
                 "focusGifUrl": null,
@@ -4258,7 +4258,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏎️",
                 "focusGifUrl": null,
@@ -4346,7 +4346,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧬",
                 "focusGifUrl": null,
@@ -4434,7 +4434,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧙",
                 "focusGifUrl": null,
@@ -4522,7 +4522,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👹",
                 "focusGifUrl": null,
@@ -4610,7 +4610,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🕵️",
                 "focusGifUrl": null,
@@ -4698,7 +4698,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌑",
                 "focusGifUrl": null,
@@ -4786,7 +4786,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌋",
                 "focusGifUrl": null,
@@ -4874,7 +4874,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🥊",
                 "focusGifUrl": null,
@@ -4962,7 +4962,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌍",
                 "focusGifUrl": null,
@@ -5050,7 +5050,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🚢",
                 "focusGifUrl": null,
@@ -5138,7 +5138,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎬",
                 "focusGifUrl": null,
@@ -5226,7 +5226,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧩",
                 "focusGifUrl": null,
@@ -5314,7 +5314,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👤",
                 "focusGifUrl": null,
@@ -5402,7 +5402,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧠",
                 "focusGifUrl": null,
@@ -5490,7 +5490,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔒",
                 "focusGifUrl": null,
@@ -5578,7 +5578,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👻",
                 "focusGifUrl": null,
@@ -5666,7 +5666,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏕️",
                 "focusGifUrl": null,
@@ -5754,7 +5754,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏝️",
                 "focusGifUrl": null,
@@ -5842,7 +5842,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏃",
                 "focusGifUrl": null,
@@ -5930,7 +5930,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "☢️",
                 "focusGifUrl": null,
@@ -6018,7 +6018,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎭",
                 "focusGifUrl": null,
@@ -6106,7 +6106,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "📚",
                 "focusGifUrl": null,
@@ -6194,7 +6194,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🕵️",
                 "focusGifUrl": null,
@@ -6282,7 +6282,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏴‍☠️",
                 "focusGifUrl": null,
@@ -6370,7 +6370,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👑",
                 "focusGifUrl": null,
@@ -6458,7 +6458,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🐺",
                 "focusGifUrl": null,
@@ -6546,7 +6546,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔮",
                 "focusGifUrl": null,
@@ -6634,7 +6634,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🕴️",
                 "focusGifUrl": null,
@@ -6722,7 +6722,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "☢️",
                 "focusGifUrl": null,
@@ -6810,7 +6810,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏹",
                 "focusGifUrl": null,
@@ -6898,7 +6898,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌌",
                 "focusGifUrl": null,
@@ -6986,7 +6986,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏚️",
                 "focusGifUrl": null,
@@ -7074,7 +7074,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🤖",
                 "focusGifUrl": null,
@@ -7162,7 +7162,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🦠",
                 "focusGifUrl": null,
@@ -7250,7 +7250,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🥷",
                 "focusGifUrl": null,
@@ -7338,7 +7338,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💻",
                 "focusGifUrl": null,
@@ -7426,7 +7426,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏰",
                 "focusGifUrl": null,
@@ -7514,7 +7514,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔪",
                 "focusGifUrl": null,
@@ -7602,7 +7602,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💰",
                 "focusGifUrl": null,
@@ -7690,7 +7690,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "⚽",
                 "focusGifUrl": null,
@@ -7778,7 +7778,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎯",
                 "focusGifUrl": null,
@@ -7866,7 +7866,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🦸",
                 "focusGifUrl": null,
@@ -7954,7 +7954,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🦹",
                 "focusGifUrl": null,
@@ -8042,7 +8042,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "😈",
                 "focusGifUrl": null,
@@ -8130,7 +8130,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "✈️",
                 "focusGifUrl": null,
@@ -8218,7 +8218,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🚀",
                 "focusGifUrl": null,
@@ -8306,7 +8306,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "👽",
                 "focusGifUrl": null,
@@ -8394,7 +8394,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🤠",
                 "focusGifUrl": null,
@@ -8482,7 +8482,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏔️",
                 "focusGifUrl": null,
@@ -8570,7 +8570,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧛",
                 "focusGifUrl": null,
@@ -8658,7 +8658,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎮",
                 "focusGifUrl": null,
@@ -8746,7 +8746,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🛡️",
                 "focusGifUrl": null,
@@ -8834,7 +8834,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧟‍♂️",
                 "focusGifUrl": null,
@@ -8922,7 +8922,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🤖",
                 "focusGifUrl": null,
@@ -9010,7 +9010,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "💔",
                 "focusGifUrl": null,
@@ -9098,7 +9098,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧳",
                 "focusGifUrl": null,
@@ -9186,7 +9186,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🔄",
                 "focusGifUrl": null,
@@ -9274,7 +9274,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "⏳",
                 "focusGifUrl": null,
@@ -9362,7 +9362,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧠",
                 "focusGifUrl": null,
@@ -9450,7 +9450,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🧟",
                 "focusGifUrl": null,
@@ -9893,7 +9893,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇹🇷",
                 "focusGifUrl": null,
@@ -10325,7 +10325,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "📺",
                 "focusGifUrl": null,
