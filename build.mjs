@@ -23,6 +23,53 @@ const CHECK_TIMEOUT_MS = 15000;
 const BREAKER = 15;
 const POSTER_MODES = ['izl', 'cats', 'all'];
 
+// ── "Sende Gönder" tanıtım kartı (izlemeli.com önerileri listesinin hep ilk sırası) ──
+// Görseller repodaki screenshots/ klasöründen okunur; dosyaları elle ekle.
+const PROMO_ID = 'izlemeli-sende-gonder';
+const PROMO_IMG = 'https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/screenshots/';
+const PROMO_UTM = (lang) => `utm_source=nuvio&utm_medium=addon&utm_campaign=sende-gonder&utm_content=${lang}`;
+const PROMO = {
+  tr: {
+    name: 'Sende Gönder',
+    releaseInfo: 'izlemeli.com',
+    description: 'Sende mutlaka izlenmeli dediğin film ve dizileri ya da bu listede olmalı dediğin yapımları izlemeli.com\'a girip topluluğumuzla paylaş! Sinefiller arasında popülerliğini artır. Önerdiğin içerikler listede görünsün.\n\nİzlemeli.com, “Bugün ne izlemeli?” sorusuna en net cevabı veren platformdur. Burada, özenle seçilmiş güncel film ve dizi önerileri sunulur.',
+    url: 'https://www.izlemeli.com/',
+    poster: 'sende-gonder-poster-tr.jpg',
+    background: 'sende-gonder-background-tr.jpg',
+    link: 'İzlemeli.com\'a git',
+  },
+  en: {
+    name: 'Send Yours',
+    releaseInfo: 'izlemeli.com',
+    description: 'Share the movies and series you think are a must-watch, or any titles that deserve a spot on this list, with our community on izlemeli.com! Boost your popularity among cinephiles. The titles you recommend will appear on the list.\n\nİzlemeli.com is the platform that gives the clearest answer to “What should I watch today?” Here you\'ll find carefully selected, up-to-date movie and series recommendations.',
+    url: 'https://www.izlemeli.com/',
+    poster: 'sende-gonder-poster-en.jpg',
+    background: 'sende-gonder-background-en.jpg',
+    link: 'Go to İzlemeli.com',
+  },
+};
+
+function promoUrl(code) {
+  const p = PROMO[code] || PROMO.tr;
+  return p.url + (p.url.includes('?') ? '&' : '?') + PROMO_UTM(code);
+}
+
+function promoMeta(code, type) {
+  const p = PROMO[code] || PROMO.tr;
+  const url = promoUrl(code);
+  return {
+    id: PROMO_ID,
+    type,
+    name: p.name,
+    releaseInfo: p.releaseInfo,
+    poster: PROMO_IMG + p.poster,
+    background: PROMO_IMG + p.background,
+    description: p.description,
+    website: url,
+    links: [{ name: p.link, category: 'website', url }],
+  };
+}
+
 const fail = (m) => { console.error('✗ ' + m); process.exit(1); };
 
 async function loadConfig() {
@@ -470,9 +517,11 @@ async function main() {
         if (!g.list.length) continue;
         catalogs.push({ type: g.type, id: g.id, name, extra });
         const PER = 100;
-        const nPages = Math.ceil(g.list.length / PER);
+        // Tanıtım kartı her zaman listenin başında; sayfalama bunu da kapsar.
+        const all = [promoMeta(code, g.type), ...g.list.map((d) => toMeta(d.t, d.r, posters ? posters.izl(code, d) : null))];
+        const nPages = Math.ceil(all.length / PER);
         for (let k = 0; k < nPages; k++) {
-          const metas = g.list.slice(k * PER, (k + 1) * PER).map((d) => toMeta(d.t, d.r, posters ? posters.izl(code, d) : null));
+          const metas = all.slice(k * PER, (k + 1) * PER);
           if (k === 0) await emit(code, `catalog/${g.type}/${g.id}.json`, { metas });
           await emit(code, `catalog/${g.type}/${g.id}/skip=${k * PER}.json`, { metas });
         }
@@ -495,12 +544,23 @@ async function main() {
         await emit(code, `catalog/${e.type}/${e.id}/skip=${pages * per}.json`, { metas: [] });
       }
     }
+    const promoOn = catalogs.some((c) => c.id.startsWith('nvk-izl'));
+    if (promoOn) {
+      const p = PROMO[code] || PROMO.tr;
+      const url = promoUrl(code);
+      for (const type of ['movie', 'series']) {
+        await emit(code, `meta/${type}/${PROMO_ID}.json`, { meta: promoMeta(code, type) });
+        await emit(code, `stream/${type}/${PROMO_ID}.json`, { streams: [{ name: 'izlemeli.com', title: p.link, externalUrl: url }] });
+      }
+    }
     await emit(code, 'manifest.json', {
       id: 'com.izlemeli.nuvio.catalogs.' + code,
       version: '1.0.' + ver,
       name: cfg.name || 'İzlemeli Katalog',
       description: code === 'tr' ? 'TMDB tabanlı özel kataloglar' : 'Custom TMDB catalogs',
-      resources: ['catalog'],
+      resources: promoOn
+        ? ['catalog', { name: 'meta', types: ['movie', 'series'], idPrefixes: ['izlemeli-'] }, { name: 'stream', types: ['movie', 'series'], idPrefixes: ['izlemeli-'] }]
+        : ['catalog'],
       types: ['movie', 'series'],
       catalogs,
       behaviorHints: { configurable: false, adult: false, p2p: false },
