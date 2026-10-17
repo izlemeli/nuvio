@@ -1409,7 +1409,7 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
@@ -1782,7 +1782,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌍",
                 "focusGifUrl": null,
@@ -7132,7 +7132,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "184312|226106"
+                            "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -7150,7 +7150,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "184312|226106"
+                            "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -7168,7 +7168,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 200,
-                            "withKeywords": "184312|226106",
+                            "withKeywords": "184312|202623|226106|239341",
                             "voteAverageGte": 6.5
                         },
                         "sortHow": null,
@@ -7187,7 +7187,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 100,
-                            "withKeywords": "184312|226106",
+                            "withKeywords": "184312|202623|226106|239341",
                             "voteAverageGte": 7
                         },
                         "sortHow": null,
@@ -7207,7 +7207,7 @@
                         "filters": {
                             "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "withKeywords": "184312|226106"
+                            "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -7226,7 +7226,7 @@
                         "filters": {
                             "voteCountGte": 5,
                             "releaseDateGte": "2025-01-01",
-                            "withKeywords": "184312|226106"
+                            "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
