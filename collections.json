@@ -1409,7 +1409,7 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
@@ -1782,7 +1782,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🌍",
                 "focusGifUrl": null,
@@ -4612,7 +4612,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "184312|226106"
+                            "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4630,7 +4630,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "withKeywords": "184312|226106"
+                            "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4648,7 +4648,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 200,
-                            "withKeywords": "184312|226106",
+                            "withKeywords": "184312|202623|226106|239341",
                             "voteAverageGte": 6.5
                         },
                         "sortHow": null,
@@ -4667,7 +4667,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 100,
-                            "withKeywords": "184312|226106",
+                            "withKeywords": "184312|202623|226106|239341",
                             "voteAverageGte": 7
                         },
                         "sortHow": null,
@@ -4687,7 +4687,7 @@
                         "filters": {
                             "voteCountGte": 20,
                             "releaseDateGte": "2025-01-01",
-                            "withKeywords": "184312|226106"
+                            "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -4706,7 +4706,7 @@
                         "filters": {
                             "voteCountGte": 5,
                             "releaseDateGte": "2025-01-01",
-                            "withKeywords": "184312|226106"
+                            "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -10166,8 +10166,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
                         },
@@ -10186,7 +10186,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
                         },
@@ -10224,7 +10224,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "28",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10244,7 +10244,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "12",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10264,7 +10264,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "16",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10284,7 +10284,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "35",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10304,7 +10304,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "80",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10324,7 +10324,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "99",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10344,7 +10344,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "18",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10364,7 +10364,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10751",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10384,7 +10384,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "14",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10404,7 +10404,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "36",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10424,7 +10424,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "27",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10444,7 +10444,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10402",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10464,7 +10464,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "9648",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10484,7 +10484,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 1,
                             "withGenres": "10749",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10504,7 +10504,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "878",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10524,7 +10524,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "53",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10544,7 +10544,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10752",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10564,7 +10564,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "37",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10598,8 +10598,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
                         },
@@ -10618,7 +10618,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
                         },
@@ -10656,7 +10656,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10759",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10676,7 +10676,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10759",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10696,7 +10696,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "16",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10716,7 +10716,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "35",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10736,7 +10736,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "80",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10756,7 +10756,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "99",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10776,7 +10776,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "18",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10796,7 +10796,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10751",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10816,7 +10816,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10765",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10836,7 +10836,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "18,10768",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10856,7 +10856,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "9648,10765",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10876,7 +10876,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withKeywords": "4344",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10896,7 +10896,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "9648",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10916,7 +10916,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "18,10766",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10936,7 +10936,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10765",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10956,7 +10956,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "9648,80",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10976,7 +10976,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "10768",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
@@ -10996,7 +10996,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
+                            "voteCountGte": 10,
                             "withGenres": "37",
                             "withOriginCountry": "TR",
                             "withOriginalLanguage": "tr"
