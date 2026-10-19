@@ -16,7 +16,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "8",
                             "watchRegion": "US"
                         },
@@ -36,7 +36,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "8",
                             "watchRegion": "US"
                         },
@@ -146,7 +146,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "337",
                             "watchRegion": "US"
                         },
@@ -166,7 +166,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "337",
                             "watchRegion": "US"
                         },
@@ -276,7 +276,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "9|119",
                             "watchRegion": "US"
                         },
@@ -296,7 +296,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "9|119",
                             "watchRegion": "US"
                         },
@@ -406,7 +406,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "1899",
                             "watchRegion": "US"
                         },
@@ -426,7 +426,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "1899",
                             "watchRegion": "US"
                         },
@@ -536,7 +536,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "350",
                             "watchRegion": "US"
                         },
@@ -556,7 +556,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "350",
                             "watchRegion": "US"
                         },
@@ -666,7 +666,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "15",
                             "watchRegion": "US"
                         },
@@ -686,7 +686,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "15",
                             "watchRegion": "US"
                         },
@@ -796,7 +796,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "2303",
                             "watchRegion": "US"
                         },
@@ -816,7 +816,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "2303",
                             "watchRegion": "US"
                         },
@@ -926,7 +926,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "387",
                             "watchRegion": "US"
                         },
@@ -946,7 +946,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "387",
                             "watchRegion": "US"
                         },
@@ -1056,7 +1056,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "11",
                             "watchRegion": "US"
                         },
@@ -1076,7 +1076,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withWatchProviders": "11",
                             "watchRegion": "US"
                         },
@@ -1225,8 +1225,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01"
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1244,7 +1244,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01"
+                            "releaseDateGte": "2023-01-01"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1275,7 +1275,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20
+                            "voteCountGte": 10
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1292,7 +1292,7 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20
+                            "voteCountGte": 10
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1814,8 +1814,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "28"
                         },
                         "sortHow": null,
@@ -1834,7 +1834,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10759"
                         },
                         "sortHow": null,
@@ -1938,8 +1938,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "12"
                         },
                         "sortHow": null,
@@ -1958,7 +1958,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10759"
                         },
                         "sortHow": null,
@@ -2062,8 +2062,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "16"
                         },
                         "sortHow": null,
@@ -2082,7 +2082,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "16"
                         },
                         "sortHow": null,
@@ -2186,8 +2186,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "35"
                         },
                         "sortHow": null,
@@ -2206,7 +2206,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "35"
                         },
                         "sortHow": null,
@@ -2310,8 +2310,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "80"
                         },
                         "sortHow": null,
@@ -2330,7 +2330,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "80"
                         },
                         "sortHow": null,
@@ -2434,8 +2434,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "99"
                         },
                         "sortHow": null,
@@ -2454,7 +2454,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "99"
                         },
                         "sortHow": null,
@@ -2860,8 +2860,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "18"
                         },
                         "sortHow": null,
@@ -2880,7 +2880,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "18"
                         },
                         "sortHow": null,
@@ -2984,8 +2984,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10751"
                         },
                         "sortHow": null,
@@ -3004,7 +3004,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10751"
                         },
                         "sortHow": null,
@@ -3108,8 +3108,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "14"
                         },
                         "sortHow": null,
@@ -3128,7 +3128,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10765"
                         },
                         "sortHow": null,
@@ -3232,8 +3232,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "36"
                         },
                         "sortHow": null,
@@ -3252,7 +3252,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "18,10768"
                         },
                         "sortHow": null,
@@ -3356,8 +3356,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "27"
                         },
                         "sortHow": null,
@@ -3376,7 +3376,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "9648,10765"
                         },
                         "sortHow": null,
@@ -3480,8 +3480,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10402"
                         },
                         "sortHow": null,
@@ -3500,7 +3500,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "4344"
                         },
                         "sortHow": null,
@@ -3604,8 +3604,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "9648"
                         },
                         "sortHow": null,
@@ -3624,7 +3624,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "9648"
                         },
                         "sortHow": null,
@@ -3728,8 +3728,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10749"
                         },
                         "sortHow": null,
@@ -3748,7 +3748,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "18,10766"
                         },
                         "sortHow": null,
@@ -3852,8 +3852,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "878"
                         },
                         "sortHow": null,
@@ -3872,7 +3872,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10765"
                         },
                         "sortHow": null,
@@ -3976,8 +3976,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "53"
                         },
                         "sortHow": null,
@@ -3996,7 +3996,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "9648,80"
                         },
                         "sortHow": null,
@@ -4100,8 +4100,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10752"
                         },
                         "sortHow": null,
@@ -4120,7 +4120,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "10768"
                         },
                         "sortHow": null,
@@ -4224,8 +4224,8 @@
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "37"
                         },
                         "sortHow": null,
@@ -4244,7 +4244,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withGenres": "37"
                         },
                         "sortHow": null,
@@ -4434,7 +4434,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "310|14544|803|679|220903"
                         },
                         "sortHow": null,
@@ -4453,7 +4453,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "310|14544|803|679|220903"
                         },
                         "sortHow": null,
@@ -4560,7 +4560,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "1453"
                         },
                         "sortHow": null,
@@ -4579,7 +4579,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "1453"
                         },
                         "sortHow": null,
@@ -4686,7 +4686,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "14704|1405|161257|179300|157894|162861|5049|1394|384863|10466"
                         },
                         "sortHow": null,
@@ -4705,7 +4705,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "14704|1405|161257|179300|157894|162861|5049|1394|384863|10466"
                         },
                         "sortHow": null,
@@ -4812,7 +4812,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "782"
                         },
                         "sortHow": null,
@@ -4831,7 +4831,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "782"
                         },
                         "sortHow": null,
@@ -4938,7 +4938,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "9672|197582"
                         },
                         "sortHow": null,
@@ -4957,7 +4957,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "9672|197582"
                         },
                         "sortHow": null,
@@ -5064,7 +5064,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "818"
                         },
                         "sortHow": null,
@@ -5083,7 +5083,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "818"
                         },
                         "sortHow": null,
@@ -5190,7 +5190,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10039|310324|286354"
                         },
                         "sortHow": null,
@@ -5209,7 +5209,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10039|310324|286354"
                         },
                         "sortHow": null,
@@ -5316,7 +5316,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10410"
                         },
                         "sortHow": null,
@@ -5335,7 +5335,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10410"
                         },
                         "sortHow": null,
@@ -5442,7 +5442,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10541"
                         },
                         "sortHow": null,
@@ -5461,7 +5461,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10541"
                         },
                         "sortHow": null,
@@ -5568,7 +5568,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "155746|156630"
                         },
                         "sortHow": null,
@@ -5587,7 +5587,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "155746|156630"
                         },
                         "sortHow": null,
@@ -5694,7 +5694,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "14999"
                         },
                         "sortHow": null,
@@ -5713,7 +5713,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "14999"
                         },
                         "sortHow": null,
@@ -5820,7 +5820,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "5096|10617"
                         },
                         "sortHow": null,
@@ -5839,7 +5839,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "5096|10617"
                         },
                         "sortHow": null,
@@ -5946,7 +5946,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10150|10617"
                         },
                         "sortHow": null,
@@ -5965,7 +5965,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10150|10617"
                         },
                         "sortHow": null,
@@ -6072,7 +6072,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "17995"
                         },
                         "sortHow": null,
@@ -6091,7 +6091,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "17995"
                         },
                         "sortHow": null,
@@ -6198,7 +6198,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10685"
                         },
                         "sortHow": null,
@@ -6217,7 +6217,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10685"
                         },
                         "sortHow": null,
@@ -6324,7 +6324,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "1706|239390|10125|10124|163561|244949"
                         },
                         "sortHow": null,
@@ -6343,7 +6343,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "1706|239390|10125|10124|163561|244949"
                         },
                         "sortHow": null,
@@ -6450,7 +6450,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "3691"
                         },
                         "sortHow": null,
@@ -6469,7 +6469,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "3691"
                         },
                         "sortHow": null,
@@ -6576,7 +6576,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10051"
                         },
                         "sortHow": null,
@@ -6595,7 +6595,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10051"
                         },
                         "sortHow": null,
@@ -6702,7 +6702,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "189092"
                         },
                         "sortHow": null,
@@ -6721,7 +6721,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "189092"
                         },
                         "sortHow": null,
@@ -6828,7 +6828,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "13084|3098|9920|2471|4833|3998"
                         },
                         "sortHow": null,
@@ -6847,7 +6847,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "13084|3098|9920|2471|4833|3998"
                         },
                         "sortHow": null,
@@ -6954,7 +6954,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10391"
                         },
                         "sortHow": null,
@@ -6973,7 +6973,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10391"
                         },
                         "sortHow": null,
@@ -7080,7 +7080,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "779"
                         },
                         "sortHow": null,
@@ -7099,7 +7099,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "779"
                         },
                         "sortHow": null,
@@ -7206,7 +7206,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
@@ -7225,7 +7225,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "184312|202623|226106|239341"
                         },
                         "sortHow": null,
@@ -7332,7 +7332,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "1299"
                         },
                         "sortHow": null,
@@ -7351,7 +7351,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "1299"
                         },
                         "sortHow": null,
@@ -7458,7 +7458,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "243230|336874|245157"
                         },
                         "sortHow": null,
@@ -7477,7 +7477,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "243230|336874|245157"
                         },
                         "sortHow": null,
@@ -7584,7 +7584,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "12988"
                         },
                         "sortHow": null,
@@ -7603,7 +7603,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "12988"
                         },
                         "sortHow": null,
@@ -7710,7 +7710,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "249530|12617"
                         },
                         "sortHow": null,
@@ -7729,7 +7729,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "249530|12617"
                         },
                         "sortHow": null,
@@ -7836,7 +7836,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "4458|4565|12332|10689|2137|318"
                         },
                         "sortHow": null,
@@ -7855,7 +7855,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "4458|4565|12332|10689|2137|318"
                         },
                         "sortHow": null,
@@ -7962,7 +7962,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "378"
                         },
                         "sortHow": null,
@@ -7981,7 +7981,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "378"
                         },
                         "sortHow": null,
@@ -8088,7 +8088,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "2908|3271"
                         },
                         "sortHow": null,
@@ -8107,7 +8107,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "2908|3271"
                         },
                         "sortHow": null,
@@ -8214,7 +8214,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10714"
                         },
                         "sortHow": null,
@@ -8233,7 +8233,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10714"
                         },
                         "sortHow": null,
@@ -8340,7 +8340,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "2580|180100"
                         },
                         "sortHow": null,
@@ -8359,7 +8359,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "2580|180100"
                         },
                         "sortHow": null,
@@ -8466,7 +8466,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "9882|9951|14626|3801|252937|14909|211248"
                         },
                         "sortHow": null,
@@ -8485,7 +8485,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "9882|9951|14626|3801|252937|14909|211248"
                         },
                         "sortHow": null,
@@ -8592,7 +8592,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "470"
                         },
                         "sortHow": null,
@@ -8611,7 +8611,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "470"
                         },
                         "sortHow": null,
@@ -8718,7 +8718,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "6075"
                         },
                         "sortHow": null,
@@ -8737,7 +8737,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "6075"
                         },
                         "sortHow": null,
@@ -8844,7 +8844,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "9715"
                         },
                         "sortHow": null,
@@ -8863,7 +8863,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "9715"
                         },
                         "sortHow": null,
@@ -8970,7 +8970,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "194404"
                         },
                         "sortHow": null,
@@ -8989,7 +8989,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "194404"
                         },
                         "sortHow": null,
@@ -9096,7 +9096,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10349"
                         },
                         "sortHow": null,
@@ -9115,7 +9115,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "10349"
                         },
                         "sortHow": null,
@@ -9222,7 +9222,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "4379|10854|5455|208757|186760"
                         },
                         "sortHow": null,
@@ -9241,7 +9241,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "4379|10854|5455|208757|186760"
                         },
                         "sortHow": null,
@@ -9348,7 +9348,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "3133"
                         },
                         "sortHow": null,
@@ -9367,7 +9367,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "3133"
                         },
                         "sortHow": null,
@@ -9474,7 +9474,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "282"
                         },
                         "sortHow": null,
@@ -9493,7 +9493,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "282"
                         },
                         "sortHow": null,
@@ -9600,7 +9600,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "4563"
                         },
                         "sortHow": null,
@@ -9619,7 +9619,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "4563"
                         },
                         "sortHow": null,
@@ -9726,7 +9726,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "3593"
                         },
                         "sortHow": null,
@@ -9745,7 +9745,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "3593"
                         },
                         "sortHow": null,
@@ -9852,7 +9852,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "40931"
                         },
                         "sortHow": null,
@@ -9871,7 +9871,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "40931"
                         },
                         "sortHow": null,
@@ -9978,7 +9978,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "1956"
                         },
                         "sortHow": null,
@@ -9997,7 +9997,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "1956"
                         },
                         "sortHow": null,
@@ -10104,7 +10104,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 20,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "12377"
                         },
                         "sortHow": null,
@@ -10123,7 +10123,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2025-01-01",
+                            "releaseDateGte": "2023-01-01",
                             "withKeywords": "12377"
                         },
                         "sortHow": null,
