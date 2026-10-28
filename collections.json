@@ -1372,7 +1372,7 @@
         "folders": [
             {
                 "id": "folder-aw-5102f2",
-                "title": "Altın Küre En İyi Film",
+                "title": "Altın Küre",
                 "sources": [
                     {
                         "type": null,
@@ -1394,10 +1394,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure-en-iyi-film.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure-en-iyi-film.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure.jpg"
             },
             {
                 "id": "folder-aw-31bb6a",
@@ -1430,7 +1430,7 @@
             },
             {
                 "id": "folder-aw-0aa79e",
-                "title": "Oscar En İyi Film",
+                "title": "Oscar",
                 "sources": [
                     {
                         "type": null,
@@ -1452,10 +1452,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar-en-iyi-film.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar-en-iyi-film.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar.jpg"
             }
         ],
         "pinToTop": true,
