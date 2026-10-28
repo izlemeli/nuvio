@@ -1226,7 +1226,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01"
+                            "releaseDateGte": "2020-01-01"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1244,7 +1244,7 @@
                         "addonId": null,
                         "filters": {
                             "voteCountGte": 5,
-                            "releaseDateGte": "2023-01-01"
+                            "releaseDateGte": "2020-01-01"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1358,10 +1358,21 @@
                 "catalogSources": [],
                 "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-imdb-puani-yuksek.jpg"
-            },
+            }
+        ],
+        "pinToTop": true,
+        "viewMode": "TABBED_GRID",
+        "showAllTab": true,
+        "backdropImageUrl": null,
+        "focusGlowEnabled": true
+    },
+    {
+        "id": "collection-oduller",
+        "title": "Ödüllü Filmler",
+        "folders": [
             {
-                "id": "folder-aw-oduller",
-                "title": "Ödüllü Filmler",
+                "id": "folder-aw-0aa79e",
+                "title": "Oscar En İyi Film",
                 "sources": [
                     {
                         "type": null,
@@ -1377,7 +1388,21 @@
                         "mediaType": "MOVIE",
                         "traktListId": null,
                         "tmdbSourceType": "LIST"
-                    },
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🏆",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar-en-iyi-film.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar-en-iyi-film.jpg"
+            },
+            {
+                "id": "folder-aw-31bb6a",
+                "title": "Cannes Altın Palmiye",
+                "sources": [
                     {
                         "type": null,
                         "genre": null,
@@ -1392,7 +1417,21 @@
                         "mediaType": "MOVIE",
                         "traktListId": null,
                         "tmdbSourceType": "LIST"
-                    },
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🏆",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-cannes-altin-palmiye.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-cannes-altin-palmiye.jpg"
+            },
+            {
+                "id": "folder-aw-5102f2",
+                "title": "Altın Küre En İyi Film",
+                "sources": [
                     {
                         "type": null,
                         "genre": null,
@@ -1409,30 +1448,42 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": true,
+                "hideTitle": false,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-odullu-filmler.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure-en-iyi-film.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-odullu-filmler.jpg"
-            },
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure-en-iyi-film.jpg"
+            }
+        ],
+        "pinToTop": false,
+        "viewMode": "TABBED_GRID",
+        "showAllTab": false,
+        "backdropImageUrl": null,
+        "focusGlowEnabled": true
+    },
+    {
+        "id": "collection-dunya-sinemalari",
+        "title": "Dünya Sinemaları",
+        "folders": [
             {
-                "id": "folder-cn-sinema",
-                "title": "Dünya Sinemaları",
+                "id": "folder-wc-de",
+                "title": "Almanya",
                 "sources": [
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Güney Kore",
-                        "sortBy": "popularity.desc",
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "KR",
-                            "withOriginalLanguage": "ko"
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1444,64 +1495,27 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Japonya",
-                        "sortBy": "popularity.desc",
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "JP",
-                            "withOriginalLanguage": "ja"
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
                         "catalogId": null,
-                        "mediaType": "MOVIE",
+                        "mediaType": "TV",
                         "traktListId": null,
                         "tmdbSourceType": "DISCOVER"
                     },
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Fransa",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "FR",
-                            "withOriginalLanguage": "fr"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "İtalya",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "IT",
-                            "withOriginalLanguage": "it"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Almanya",
+                        "title": "Popüler Filmler",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -1520,13 +1534,85 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "İspanya",
+                        "title": "Popüler Diziler",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "ES",
+                            "voteCountGte": 5,
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇩🇪",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-almanya.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-almanya.jpg"
+            },
+            {
+                "id": "folder-wc-ar",
+                "title": "Arjantin",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "AR",
                             "withOriginalLanguage": "es"
                         },
                         "sortHow": null,
@@ -1539,138 +1625,27 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Birleşik Krallık",
-                        "sortBy": "popularity.desc",
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "GB",
-                            "withOriginalLanguage": "en"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Hindistan",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "IN"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Çin",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "CN",
-                            "withOriginalLanguage": "zh"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Hong Kong",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "HK"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "İran",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "IR",
-                            "withOriginalLanguage": "fa"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Meksika",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "MX",
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "AR",
                             "withOriginalLanguage": "es"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
                         "catalogId": null,
-                        "mediaType": "MOVIE",
+                        "mediaType": "TV",
                         "traktListId": null,
                         "tmdbSourceType": "DISCOVER"
                     },
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Brezilya",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "BR",
-                            "withOriginalLanguage": "pt"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Arjantin",
+                        "title": "Popüler Filmler",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -1689,14 +1664,33 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "İsveç",
+                        "title": "Popüler Diziler",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "SE",
-                            "withOriginalLanguage": "sv"
+                            "voteCountGte": 5,
+                            "withOriginCountry": "AR",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "AR",
+                            "withOriginalLanguage": "es"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1708,7 +1702,470 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Danimarka",
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "AR",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇦🇷",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-arjantin.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-arjantin.jpg"
+            },
+            {
+                "id": "folder-wc-gb",
+                "title": "Birleşik Krallık",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇬🇧",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-birlesik-krallik.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-birlesik-krallik.jpg"
+            },
+            {
+                "id": "folder-wc-br",
+                "title": "Brezilya",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "BR",
+                            "withOriginalLanguage": "pt"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "BR",
+                            "withOriginalLanguage": "pt"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "BR",
+                            "withOriginalLanguage": "pt"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "BR",
+                            "withOriginalLanguage": "pt"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "BR",
+                            "withOriginalLanguage": "pt"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "BR",
+                            "withOriginalLanguage": "pt"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇧🇷",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-brezilya.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-brezilya.jpg"
+            },
+            {
+                "id": "folder-wc-cn",
+                "title": "Çin",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "CN",
+                            "withOriginalLanguage": "zh"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "CN",
+                            "withOriginalLanguage": "zh"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "CN",
+                            "withOriginalLanguage": "zh"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "CN",
+                            "withOriginalLanguage": "zh"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "CN",
+                            "withOriginalLanguage": "zh"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "CN",
+                            "withOriginalLanguage": "zh"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇨🇳",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-cin.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-cin.jpg"
+            },
+            {
+                "id": "folder-wc-dk",
+                "title": "Danimarka",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "DK",
+                            "withOriginalLanguage": "da"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "DK",
+                            "withOriginalLanguage": "da"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -1727,14 +2184,33 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Rusya",
+                        "title": "Popüler Diziler",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
                         "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "RU",
-                            "withOriginalLanguage": "ru"
+                            "voteCountGte": 5,
+                            "withOriginCountry": "DK",
+                            "withOriginalLanguage": "da"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "DK",
+                            "withOriginalLanguage": "da"
                         },
                         "sortHow": null,
                         "provider": "tmdb",
@@ -1746,7 +2222,1368 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Polonya",
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "DK",
+                            "withOriginalLanguage": "da"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇩🇰",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-danimarka.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-danimarka.jpg"
+            },
+            {
+                "id": "folder-wc-fr",
+                "title": "Fransa",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "FR",
+                            "withOriginalLanguage": "fr"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "FR",
+                            "withOriginalLanguage": "fr"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "FR",
+                            "withOriginalLanguage": "fr"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "FR",
+                            "withOriginalLanguage": "fr"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "FR",
+                            "withOriginalLanguage": "fr"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "FR",
+                            "withOriginalLanguage": "fr"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇫🇷",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-fransa.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-fransa.jpg"
+            },
+            {
+                "id": "folder-wc-kr",
+                "title": "Güney Kore",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "KR",
+                            "withOriginalLanguage": "ko"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "KR",
+                            "withOriginalLanguage": "ko"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "KR",
+                            "withOriginalLanguage": "ko"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "KR",
+                            "withOriginalLanguage": "ko"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "KR",
+                            "withOriginalLanguage": "ko"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "KR",
+                            "withOriginalLanguage": "ko"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇰🇷",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-guney-kore.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-guney-kore.jpg"
+            },
+            {
+                "id": "folder-wc-in",
+                "title": "Hindistan",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇮🇳",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-hindistan.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-hindistan.jpg"
+            },
+            {
+                "id": "folder-wc-hk",
+                "title": "Hong Kong",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇭🇰",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-hong-kong.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-hong-kong.jpg"
+            },
+            {
+                "id": "folder-wc-ir",
+                "title": "İran",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇮🇷",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-iran.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-iran.jpg"
+            },
+            {
+                "id": "folder-wc-es",
+                "title": "İspanya",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "ES",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "ES",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "ES",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "ES",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "ES",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "ES",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇪🇸",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-ispanya.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-ispanya.jpg"
+            },
+            {
+                "id": "folder-wc-se",
+                "title": "İsveç",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "SE",
+                            "withOriginalLanguage": "sv"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "SE",
+                            "withOriginalLanguage": "sv"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "SE",
+                            "withOriginalLanguage": "sv"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "SE",
+                            "withOriginalLanguage": "sv"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "SE",
+                            "withOriginalLanguage": "sv"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "SE",
+                            "withOriginalLanguage": "sv"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇸🇪",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-isvec.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-isvec.jpg"
+            },
+            {
+                "id": "folder-wc-it",
+                "title": "İtalya",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇮🇹",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-italya.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-italya.jpg"
+            },
+            {
+                "id": "folder-wc-jp",
+                "title": "Japonya",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇯🇵",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-japonya.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-japonya.jpg"
+            },
+            {
+                "id": "folder-wc-mx",
+                "title": "Meksika",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇲🇽",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-meksika.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-meksika.jpg"
+            },
+            {
+                "id": "folder-wc-pl",
+                "title": "Polonya",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -1765,7 +3602,248 @@
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Tayland",
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇵🇱",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-polonya.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-polonya.jpg"
+            },
+            {
+                "id": "folder-wc-ru",
+                "title": "Rusya",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇷🇺",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-rusya.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-rusya.jpg"
+            },
+            {
+                "id": "folder-wc-th",
+                "title": "Tayland",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "TH",
+                            "withOriginalLanguage": "th"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "TH",
+                            "withOriginalLanguage": "th"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
                         "sortBy": "popularity.desc",
                         "tmdbId": null,
                         "addonId": null,
@@ -1780,21 +3858,909 @@
                         "mediaType": "MOVIE",
                         "traktListId": null,
                         "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "TH",
+                            "withOriginalLanguage": "th"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "TH",
+                            "withOriginalLanguage": "th"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "TH",
+                            "withOriginalLanguage": "th"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": true,
+                "hideTitle": false,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🌍",
+                "coverEmoji": "🇹🇭",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-dunya-sinemalari.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-tayland.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-dunya-sinemalari.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-tayland.jpg"
             }
         ],
-        "pinToTop": true,
+        "pinToTop": false,
         "viewMode": "TABBED_GRID",
-        "showAllTab": true,
+        "showAllTab": false,
+        "backdropImageUrl": null,
+        "focusGlowEnabled": true
+    },
+    {
+        "id": "collection-10lar",
+        "title": "10'lar",
+        "folders": [
+            {
+                "id": "folder-dc-1930",
+                "title": "1930'lar",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1930-01-01",
+                            "releaseDateLte": "1939-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "releaseDateGte": "1930-01-01",
+                            "releaseDateLte": "1939-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1930-lar.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1930-lar.jpg"
+            },
+            {
+                "id": "folder-dc-1940",
+                "title": "1940'lar",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1940-01-01",
+                            "releaseDateLte": "1949-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "releaseDateGte": "1940-01-01",
+                            "releaseDateLte": "1949-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1940-lar.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1940-lar.jpg"
+            },
+            {
+                "id": "folder-dc-1950",
+                "title": "1950'ler",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1950-01-01",
+                            "releaseDateLte": "1959-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "1950-01-01",
+                            "releaseDateLte": "1959-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "releaseDateGte": "1950-01-01",
+                            "releaseDateLte": "1959-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1950-01-01",
+                            "releaseDateLte": "1959-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1950-ler.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1950-ler.jpg"
+            },
+            {
+                "id": "folder-dc-1960",
+                "title": "1960'lar",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1960-01-01",
+                            "releaseDateLte": "1969-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "1960-01-01",
+                            "releaseDateLte": "1969-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "releaseDateGte": "1960-01-01",
+                            "releaseDateLte": "1969-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1960-01-01",
+                            "releaseDateLte": "1969-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1960-lar.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1960-lar.jpg"
+            },
+            {
+                "id": "folder-dc-1970",
+                "title": "1970'ler",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1970-01-01",
+                            "releaseDateLte": "1979-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "1970-01-01",
+                            "releaseDateLte": "1979-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "releaseDateGte": "1970-01-01",
+                            "releaseDateLte": "1979-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1970-01-01",
+                            "releaseDateLte": "1979-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1970-ler.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1970-ler.jpg"
+            },
+            {
+                "id": "folder-dc-1980",
+                "title": "1980'ler",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1980-01-01",
+                            "releaseDateLte": "1989-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "1980-01-01",
+                            "releaseDateLte": "1989-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "releaseDateGte": "1980-01-01",
+                            "releaseDateLte": "1989-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 50,
+                            "releaseDateGte": "1980-01-01",
+                            "releaseDateLte": "1989-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1980-ler.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1980-ler.jpg"
+            },
+            {
+                "id": "folder-dc-1990",
+                "title": "1990'lar",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "1990-01-01",
+                            "releaseDateLte": "1999-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "1990-01-01",
+                            "releaseDateLte": "1999-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "releaseDateGte": "1990-01-01",
+                            "releaseDateLte": "1999-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 50,
+                            "releaseDateGte": "1990-01-01",
+                            "releaseDateLte": "1999-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1990-lar.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-1990-lar.jpg"
+            },
+            {
+                "id": "folder-dc-2000",
+                "title": "2000'ler",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2000-01-01",
+                            "releaseDateLte": "2009-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2000-01-01",
+                            "releaseDateLte": "2009-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "releaseDateGte": "2000-01-01",
+                            "releaseDateLte": "2009-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "releaseDateGte": "2000-01-01",
+                            "releaseDateLte": "2009-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-2000-ler.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-2000-ler.jpg"
+            },
+            {
+                "id": "folder-dc-2010",
+                "title": "2010'lar",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2010-01-01",
+                            "releaseDateLte": "2019-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2010-01-01",
+                            "releaseDateLte": "2019-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "releaseDateGte": "2010-01-01",
+                            "releaseDateLte": "2019-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "releaseDateGte": "2010-01-01",
+                            "releaseDateLte": "2019-12-31"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-2010-lar.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-2010-lar.jpg"
+            },
+            {
+                "id": "folder-dc-2020",
+                "title": "2020'ler",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2020-01-01"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2020-01-01"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "releaseDateGte": "2020-01-01"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "releaseDateGte": "2020-01-01"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": false,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎞️",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-2020-ler.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-2020-ler.jpg"
+            }
+        ],
+        "pinToTop": false,
+        "viewMode": "TABBED_GRID",
+        "showAllTab": false,
         "backdropImageUrl": null,
         "focusGlowEnabled": true
     },
