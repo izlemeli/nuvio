@@ -1371,15 +1371,15 @@
         "title": "Ödüllü Filmler",
         "folders": [
             {
-                "id": "folder-aw-0aa79e",
-                "title": "Oscar En İyi Film",
+                "id": "folder-aw-5102f2",
+                "title": "Altın Küre En İyi Film",
                 "sources": [
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Oscar En İyi Film",
+                        "title": "Altın Küre En İyi Film",
                         "sortBy": "primary_release_date.desc",
-                        "tmdbId": 28,
+                        "tmdbId": 2469,
                         "addonId": null,
                         "filters": {},
                         "sortHow": null,
@@ -1390,14 +1390,14 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar-en-iyi-film.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure-en-iyi-film.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar-en-iyi-film.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure-en-iyi-film.jpg"
             },
             {
                 "id": "folder-aw-31bb6a",
@@ -1419,7 +1419,7 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
@@ -1429,15 +1429,15 @@
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-cannes-altin-palmiye.jpg"
             },
             {
-                "id": "folder-aw-5102f2",
-                "title": "Altın Küre En İyi Film",
+                "id": "folder-aw-0aa79e",
+                "title": "Oscar En İyi Film",
                 "sources": [
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Altın Küre En İyi Film",
+                        "title": "Oscar En İyi Film",
                         "sortBy": "primary_release_date.desc",
-                        "tmdbId": 2469,
+                        "tmdbId": 28,
                         "addonId": null,
                         "filters": {},
                         "sortHow": null,
@@ -1448,19 +1448,19 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure-en-iyi-film.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar-en-iyi-film.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-altin-kure-en-iyi-film.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/odullu-filmler-oscar-en-iyi-film.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
-        "showAllTab": false,
+        "showAllTab": true,
         "backdropImageUrl": null,
         "focusGlowEnabled": true
     },
@@ -1589,7 +1589,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇩🇪",
                 "focusGifUrl": null,
@@ -1719,7 +1719,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇦🇷",
                 "focusGifUrl": null,
@@ -1849,7 +1849,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇬🇧",
                 "focusGifUrl": null,
@@ -1979,7 +1979,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇧🇷",
                 "focusGifUrl": null,
@@ -2109,7 +2109,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇨🇳",
                 "focusGifUrl": null,
@@ -2239,7 +2239,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇩🇰",
                 "focusGifUrl": null,
@@ -2369,7 +2369,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇫🇷",
                 "focusGifUrl": null,
@@ -2499,7 +2499,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇰🇷",
                 "focusGifUrl": null,
@@ -2623,7 +2623,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇮🇳",
                 "focusGifUrl": null,
@@ -2747,7 +2747,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇭🇰",
                 "focusGifUrl": null,
@@ -2877,7 +2877,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇮🇷",
                 "focusGifUrl": null,
@@ -3007,7 +3007,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇪🇸",
                 "focusGifUrl": null,
@@ -3137,7 +3137,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇸🇪",
                 "focusGifUrl": null,
@@ -3267,7 +3267,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇮🇹",
                 "focusGifUrl": null,
@@ -3397,7 +3397,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇯🇵",
                 "focusGifUrl": null,
@@ -3527,7 +3527,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇲🇽",
                 "focusGifUrl": null,
@@ -3657,7 +3657,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇵🇱",
                 "focusGifUrl": null,
@@ -3787,7 +3787,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇷🇺",
                 "focusGifUrl": null,
@@ -3917,7 +3917,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇹🇭",
                 "focusGifUrl": null,
@@ -3927,9 +3927,9 @@
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/dunya-sinemalari-tayland.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
-        "showAllTab": false,
+        "showAllTab": true,
         "backdropImageUrl": null,
         "focusGlowEnabled": true
     },
@@ -3980,7 +3980,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4032,7 +4032,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4122,7 +4122,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4212,7 +4212,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4302,7 +4302,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4392,7 +4392,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4482,7 +4482,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4572,7 +4572,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4662,7 +4662,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4748,7 +4748,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4758,9 +4758,9 @@
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/10-lar-2020-ler.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
-        "showAllTab": false,
+        "showAllTab": true,
         "backdropImageUrl": null,
         "focusGlowEnabled": true
     },
