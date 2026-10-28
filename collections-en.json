@@ -1372,7 +1372,7 @@
         "folders": [
             {
                 "id": "folder-aw-5102f2",
-                "title": "Golden Globe Best Picture",
+                "title": "Golden Globe",
                 "sources": [
                     {
                         "type": null,
@@ -1394,10 +1394,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-golden-globe-best-picture.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-golden-globe.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-golden-globe-best-picture.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-golden-globe.jpg"
             },
             {
                 "id": "folder-aw-31bb6a",
@@ -1430,7 +1430,7 @@
             },
             {
                 "id": "folder-aw-0aa79e",
-                "title": "Oscar Best Picture",
+                "title": "Oscar",
                 "sources": [
                     {
                         "type": null,
@@ -1452,10 +1452,10 @@
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-oscar-best-picture.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-oscar.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-oscar-best-picture.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-oscar.jpg"
             }
         ],
         "pinToTop": true,
