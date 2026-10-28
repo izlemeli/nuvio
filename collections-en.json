@@ -1371,15 +1371,15 @@
         "title": "Award Winners",
         "folders": [
             {
-                "id": "folder-aw-0aa79e",
-                "title": "Oscar Best Picture",
+                "id": "folder-aw-5102f2",
+                "title": "Golden Globe Best Picture",
                 "sources": [
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Oscar Best Picture",
+                        "title": "Golden Globe Best Picture",
                         "sortBy": "primary_release_date.desc",
-                        "tmdbId": 28,
+                        "tmdbId": 2469,
                         "addonId": null,
                         "filters": {},
                         "sortHow": null,
@@ -1390,14 +1390,14 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-oscar-best-picture.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-golden-globe-best-picture.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-oscar-best-picture.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-golden-globe-best-picture.jpg"
             },
             {
                 "id": "folder-aw-31bb6a",
@@ -1419,7 +1419,7 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
@@ -1429,15 +1429,15 @@
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-cannes-palme-d-or.jpg"
             },
             {
-                "id": "folder-aw-5102f2",
-                "title": "Golden Globe Best Picture",
+                "id": "folder-aw-0aa79e",
+                "title": "Oscar Best Picture",
                 "sources": [
                     {
                         "type": null,
                         "genre": null,
-                        "title": "Golden Globe Best Picture",
+                        "title": "Oscar Best Picture",
                         "sortBy": "primary_release_date.desc",
-                        "tmdbId": 2469,
+                        "tmdbId": 28,
                         "addonId": null,
                         "filters": {},
                         "sortHow": null,
@@ -1448,19 +1448,19 @@
                         "tmdbSourceType": "LIST"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🏆",
                 "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-golden-globe-best-picture.jpg",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-oscar-best-picture.jpg",
                 "catalogSources": [],
                 "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-golden-globe-best-picture.jpg"
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/award-winners-oscar-best-picture.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
-        "showAllTab": false,
+        "showAllTab": true,
         "backdropImageUrl": null,
         "focusGlowEnabled": true
     },
@@ -1468,6 +1468,136 @@
         "id": "collection-dunya-sinemalari",
         "title": "World Cinema",
         "folders": [
+            {
+                "id": "folder-wc-de",
+                "title": "Germany",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "DE",
+                            "withOriginalLanguage": "de"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇩🇪",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-germany.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-germany.jpg"
+            },
             {
                 "id": "folder-wc-ar",
                 "title": "Argentina",
@@ -1589,7 +1719,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇦🇷",
                 "focusGifUrl": null,
@@ -1597,6 +1727,136 @@
                 "catalogSources": [],
                 "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-argentina.jpg"
+            },
+            {
+                "id": "folder-wc-gb",
+                "title": "United Kingdom",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "GB",
+                            "withOriginalLanguage": "en"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇬🇧",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-united-kingdom.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-united-kingdom.jpg"
             },
             {
                 "id": "folder-wc-br",
@@ -1719,7 +1979,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇧🇷",
                 "focusGifUrl": null,
@@ -1849,7 +2109,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇨🇳",
                 "focusGifUrl": null,
@@ -1979,7 +2239,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇩🇰",
                 "focusGifUrl": null,
@@ -2109,7 +2369,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇫🇷",
                 "focusGifUrl": null,
@@ -2117,1164 +2377,6 @@
                 "catalogSources": [],
                 "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-france.jpg"
-            },
-            {
-                "id": "folder-wc-de",
-                "title": "Germany",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "DE",
-                            "withOriginalLanguage": "de"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "DE",
-                            "withOriginalLanguage": "de"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "DE",
-                            "withOriginalLanguage": "de"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "DE",
-                            "withOriginalLanguage": "de"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "DE",
-                            "withOriginalLanguage": "de"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "DE",
-                            "withOriginalLanguage": "de"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇩🇪",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-germany.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-germany.jpg"
-            },
-            {
-                "id": "folder-wc-hk",
-                "title": "Hong Kong",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "HK"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "HK"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "HK"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "HK"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "HK"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "HK"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇭🇰",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-hong-kong.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-hong-kong.jpg"
-            },
-            {
-                "id": "folder-wc-in",
-                "title": "India",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "IN"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "IN"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "IN"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "IN"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "IN"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "IN"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇮🇳",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-india.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-india.jpg"
-            },
-            {
-                "id": "folder-wc-ir",
-                "title": "Iran",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "IR",
-                            "withOriginalLanguage": "fa"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "IR",
-                            "withOriginalLanguage": "fa"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "IR",
-                            "withOriginalLanguage": "fa"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "IR",
-                            "withOriginalLanguage": "fa"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "IR",
-                            "withOriginalLanguage": "fa"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "IR",
-                            "withOriginalLanguage": "fa"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇮🇷",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-iran.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-iran.jpg"
-            },
-            {
-                "id": "folder-wc-it",
-                "title": "Italy",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "IT",
-                            "withOriginalLanguage": "it"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "IT",
-                            "withOriginalLanguage": "it"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "IT",
-                            "withOriginalLanguage": "it"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "IT",
-                            "withOriginalLanguage": "it"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "IT",
-                            "withOriginalLanguage": "it"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "IT",
-                            "withOriginalLanguage": "it"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇮🇹",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-italy.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-italy.jpg"
-            },
-            {
-                "id": "folder-wc-jp",
-                "title": "Japan",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "JP",
-                            "withOriginalLanguage": "ja"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "JP",
-                            "withOriginalLanguage": "ja"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "JP",
-                            "withOriginalLanguage": "ja"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "JP",
-                            "withOriginalLanguage": "ja"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "JP",
-                            "withOriginalLanguage": "ja"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "JP",
-                            "withOriginalLanguage": "ja"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇯🇵",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-japan.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-japan.jpg"
-            },
-            {
-                "id": "folder-wc-mx",
-                "title": "Mexico",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "MX",
-                            "withOriginalLanguage": "es"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "MX",
-                            "withOriginalLanguage": "es"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "MX",
-                            "withOriginalLanguage": "es"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "MX",
-                            "withOriginalLanguage": "es"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "MX",
-                            "withOriginalLanguage": "es"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "MX",
-                            "withOriginalLanguage": "es"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇲🇽",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-mexico.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-mexico.jpg"
-            },
-            {
-                "id": "folder-wc-pl",
-                "title": "Poland",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "PL",
-                            "withOriginalLanguage": "pl"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "PL",
-                            "withOriginalLanguage": "pl"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "PL",
-                            "withOriginalLanguage": "pl"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "PL",
-                            "withOriginalLanguage": "pl"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "PL",
-                            "withOriginalLanguage": "pl"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "PL",
-                            "withOriginalLanguage": "pl"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇵🇱",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-poland.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-poland.jpg"
-            },
-            {
-                "id": "folder-wc-ru",
-                "title": "Russia",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "RU",
-                            "withOriginalLanguage": "ru"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "RU",
-                            "withOriginalLanguage": "ru"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "RU",
-                            "withOriginalLanguage": "ru"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "RU",
-                            "withOriginalLanguage": "ru"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "RU",
-                            "withOriginalLanguage": "ru"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "RU",
-                            "withOriginalLanguage": "ru"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇷🇺",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-russia.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-russia.jpg"
             },
             {
                 "id": "folder-wc-kr",
@@ -3397,7 +2499,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇰🇷",
                 "focusGifUrl": null,
@@ -3405,6 +2507,384 @@
                 "catalogSources": [],
                 "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-south-korea.jpg"
+            },
+            {
+                "id": "folder-wc-in",
+                "title": "India",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "IN"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇮🇳",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-india.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-india.jpg"
+            },
+            {
+                "id": "folder-wc-hk",
+                "title": "Hong Kong",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "HK"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇭🇰",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-hong-kong.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-hong-kong.jpg"
+            },
+            {
+                "id": "folder-wc-ir",
+                "title": "Iran",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "IR",
+                            "withOriginalLanguage": "fa"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇮🇷",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-iran.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-iran.jpg"
             },
             {
                 "id": "folder-wc-es",
@@ -3527,7 +3007,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇪🇸",
                 "focusGifUrl": null,
@@ -3657,7 +3137,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇸🇪",
                 "focusGifUrl": null,
@@ -3665,6 +3145,656 @@
                 "catalogSources": [],
                 "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-sweden.jpg"
+            },
+            {
+                "id": "folder-wc-it",
+                "title": "Italy",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "IT",
+                            "withOriginalLanguage": "it"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇮🇹",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-italy.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-italy.jpg"
+            },
+            {
+                "id": "folder-wc-jp",
+                "title": "Japan",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "JP",
+                            "withOriginalLanguage": "ja"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇯🇵",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-japan.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-japan.jpg"
+            },
+            {
+                "id": "folder-wc-mx",
+                "title": "Mexico",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "MX",
+                            "withOriginalLanguage": "es"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇲🇽",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-mexico.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-mexico.jpg"
+            },
+            {
+                "id": "folder-wc-pl",
+                "title": "Poland",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "PL",
+                            "withOriginalLanguage": "pl"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇵🇱",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-poland.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-poland.jpg"
+            },
+            {
+                "id": "folder-wc-ru",
+                "title": "Russia",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "New Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 2,
+                            "releaseDateGte": "2023-01-01",
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popular Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Top Rated Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withOriginCountry": "RU",
+                            "withOriginalLanguage": "ru"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🇷🇺",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-russia.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-russia.jpg"
             },
             {
                 "id": "folder-wc-th",
@@ -3787,7 +3917,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🇹🇭",
                 "focusGifUrl": null,
@@ -3795,141 +3925,11 @@
                 "catalogSources": [],
                 "focusGifEnabled": false,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-thailand.jpg"
-            },
-            {
-                "id": "folder-wc-gb",
-                "title": "United Kingdom",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "GB",
-                            "withOriginalLanguage": "en"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "New Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 2,
-                            "releaseDateGte": "2023-01-01",
-                            "withOriginCountry": "GB",
-                            "withOriginalLanguage": "en"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 20,
-                            "withOriginCountry": "GB",
-                            "withOriginalLanguage": "en"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Popular Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "withOriginCountry": "GB",
-                            "withOriginalLanguage": "en"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 200,
-                            "withOriginCountry": "GB",
-                            "withOriginalLanguage": "en"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Top Rated Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 30,
-                            "withOriginCountry": "GB",
-                            "withOriginalLanguage": "en"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": false,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🇬🇧",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-united-kingdom.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/world-cinema-united-kingdom.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
-        "showAllTab": false,
+        "showAllTab": true,
         "backdropImageUrl": null,
         "focusGlowEnabled": true
     },
@@ -3980,7 +3980,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4032,7 +4032,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4122,7 +4122,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4212,7 +4212,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4302,7 +4302,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4392,7 +4392,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4482,7 +4482,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4572,7 +4572,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4662,7 +4662,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4748,7 +4748,7 @@
                         "tmdbSourceType": "DISCOVER"
                     }
                 ],
-                "hideTitle": false,
+                "hideTitle": true,
                 "tileShape": "LANDSCAPE",
                 "coverEmoji": "🎞️",
                 "focusGifUrl": null,
@@ -4758,9 +4758,9 @@
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/decades-2020s.jpg"
             }
         ],
-        "pinToTop": false,
+        "pinToTop": true,
         "viewMode": "TABBED_GRID",
-        "showAllTab": false,
+        "showAllTab": true,
         "backdropImageUrl": null,
         "focusGlowEnabled": true
     },
