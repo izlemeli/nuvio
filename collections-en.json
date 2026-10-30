@@ -1,5 +1,191 @@
 [
     {
+        "id": "collection-yeni-populer",
+        "title": "New & Popular",
+        "folders": [
+            {
+                "id": "folder-byitt4",
+                "title": "İzlemeli.com Picks",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "İzlemeli.com Picks",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": 8704342,
+                        "addonId": null,
+                        "filters": {},
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "LIST"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-izlemeli-com-picks.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-izlemeli-com-picks.jpg"
+            },
+            {
+                "id": "folder-np-new",
+                "title": "New Releases",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Movies",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2020-01-01"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Series",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2020-01-01"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🆕",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-new-releases.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-new-releases.jpg"
+            },
+            {
+                "id": "folder-np-pop",
+                "title": "Trending Now",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Movies",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Series",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🔥",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-trending-now.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-trending-now.jpg"
+            },
+            {
+                "id": "folder-np-top",
+                "title": "Top Rated on IMDb",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Movies",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5000
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Series",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 1500
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "⭐",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-top-rated-on-imdb.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-top-rated-on-imdb.jpg"
+            }
+        ],
+        "pinToTop": true,
+        "viewMode": "TABBED_GRID",
+        "showAllTab": true,
+        "backdropImageUrl": null,
+        "focusGlowEnabled": true
+    },
+    {
         "id": "collection-platformlar",
         "title": "Platforms",
         "folders": [
@@ -1172,192 +1358,6 @@
                 "catalogSources": [],
                 "focusGifEnabled": true,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platforms-mubi.jpg"
-            }
-        ],
-        "pinToTop": true,
-        "viewMode": "TABBED_GRID",
-        "showAllTab": true,
-        "backdropImageUrl": null,
-        "focusGlowEnabled": true
-    },
-    {
-        "id": "collection-yeni-populer",
-        "title": "New & Popular",
-        "folders": [
-            {
-                "id": "folder-byitt4",
-                "title": "İzlemeli.com Picks",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "İzlemeli.com Picks",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": 8704342,
-                        "addonId": null,
-                        "filters": {},
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "LIST"
-                    }
-                ],
-                "hideTitle": true,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-izlemeli-com-picks.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-izlemeli-com-picks.jpg"
-            },
-            {
-                "id": "folder-np-new",
-                "title": "New Releases",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Movies",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2020-01-01"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Series",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "releaseDateGte": "2020-01-01"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": true,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🆕",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-new-releases.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-new-releases.jpg"
-            },
-            {
-                "id": "folder-np-pop",
-                "title": "Trending Now",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Movies",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Series",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": true,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🔥",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-trending-now.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-trending-now.jpg"
-            },
-            {
-                "id": "folder-np-top",
-                "title": "Top Rated on IMDb",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Movies",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5000
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Series",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 1500
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": true,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "⭐",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-top-rated-on-imdb.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/new-popular-top-rated-on-imdb.jpg"
             }
         ],
         "pinToTop": true,
