@@ -1,5 +1,191 @@
 [
     {
+        "id": "collection-yeni-populer",
+        "title": "Yeni ve Popüler",
+        "folders": [
+            {
+                "id": "folder-byitt4",
+                "title": "İzlemeli.com Önerileri",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "İzlemeli.com Önerileri",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": 8704342,
+                        "addonId": null,
+                        "filters": {},
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "LIST"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-izlemeli-com-onerileri.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-izlemeli-com-onerileri.jpg"
+            },
+            {
+                "id": "folder-np-new",
+                "title": "Yeniler",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10,
+                            "releaseDateGte": "2020-01-01"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2020-01-01"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🆕",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-yeniler.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-yeniler.jpg"
+            },
+            {
+                "id": "folder-np-pop",
+                "title": "Şu An Popüler",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 10
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🔥",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-su-an-populer.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-su-an-populer.jpg"
+            },
+            {
+                "id": "folder-np-top",
+                "title": "IMDb Puanı Yüksek",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5000
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 1500
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "⭐",
+                "focusGifUrl": null,
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-imdb-puani-yuksek.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": false,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-imdb-puani-yuksek.jpg"
+            }
+        ],
+        "pinToTop": true,
+        "viewMode": "TABBED_GRID",
+        "showAllTab": true,
+        "backdropImageUrl": null,
+        "focusGlowEnabled": true
+    },
+    {
         "id": "collection-platformlar",
         "title": "Platformlar",
         "folders": [
@@ -1172,192 +1358,6 @@
                 "catalogSources": [],
                 "focusGifEnabled": true,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-mubi.jpg"
-            }
-        ],
-        "pinToTop": true,
-        "viewMode": "TABBED_GRID",
-        "showAllTab": true,
-        "backdropImageUrl": null,
-        "focusGlowEnabled": true
-    },
-    {
-        "id": "collection-yeni-populer",
-        "title": "Yeni ve Popüler",
-        "folders": [
-            {
-                "id": "folder-byitt4",
-                "title": "İzlemeli.com Önerileri",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "İzlemeli.com Önerileri",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": 8704342,
-                        "addonId": null,
-                        "filters": {},
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "LIST"
-                    }
-                ],
-                "hideTitle": true,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-izlemeli-com-onerileri.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-izlemeli-com-onerileri.jpg"
-            },
-            {
-                "id": "folder-np-new",
-                "title": "Yeniler",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Filmler",
-                        "sortBy": "primary_release_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10,
-                            "releaseDateGte": "2020-01-01"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Diziler",
-                        "sortBy": "first_air_date.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5,
-                            "releaseDateGte": "2020-01-01"
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": true,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🆕",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-yeniler.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-yeniler.jpg"
-            },
-            {
-                "id": "folder-np-pop",
-                "title": "Şu An Popüler",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Filmler",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Diziler",
-                        "sortBy": "popularity.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 10
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": true,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "🔥",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-su-an-populer.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-su-an-populer.jpg"
-            },
-            {
-                "id": "folder-np-top",
-                "title": "IMDb Puanı Yüksek",
-                "sources": [
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Filmler",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 5000
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
-                        "genre": null,
-                        "title": "Diziler",
-                        "sortBy": "vote_average.desc",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {
-                            "voteCountGte": 1500
-                        },
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "TV",
-                        "traktListId": null,
-                        "tmdbSourceType": "DISCOVER"
-                    }
-                ],
-                "hideTitle": true,
-                "tileShape": "LANDSCAPE",
-                "coverEmoji": "⭐",
-                "focusGifUrl": null,
-                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-imdb-puani-yuksek.jpg",
-                "catalogSources": [],
-                "focusGifEnabled": false,
-                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/yeni-ve-populer-imdb-puani-yuksek.jpg"
             }
         ],
         "pinToTop": true,
