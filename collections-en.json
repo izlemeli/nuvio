@@ -13606,21 +13606,6 @@
                     },
                     {
                         "type": null,
-                        "genre": "Cloverfield",
-                        "title": "Cloverfield",
-                        "sortBy": "rank",
-                        "tmdbId": null,
-                        "addonId": null,
-                        "filters": {},
-                        "sortHow": "asc",
-                        "provider": "trakt",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": "24073279",
-                        "tmdbSourceType": "DISCOVER"
-                    },
-                    {
-                        "type": null,
                         "genre": "Conan the Barbarian",
                         "title": "Conan the Barbarian",
                         "sortBy": "original",
