@@ -13831,21 +13831,6 @@
                     },
                     {
                         "type": null,
-                        "genre": "Eastrail 177 Trilogy",
-                        "title": "Eastrail 177 Trilogy",
-                        "sortBy": "original",
-                        "tmdbId": 86283,
-                        "addonId": null,
-                        "filters": {},
-                        "sortHow": null,
-                        "provider": "tmdb",
-                        "catalogId": null,
-                        "mediaType": "MOVIE",
-                        "traktListId": null,
-                        "tmdbSourceType": "COLLECTION"
-                    },
-                    {
-                        "type": null,
                         "genre": "Enola Holmes",
                         "title": "Enola Holmes",
                         "sortBy": "original",
