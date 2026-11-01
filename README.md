@@ -151,6 +151,8 @@ https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.jso
 - Turkish Manifest: https://izlemeli.github.io/nuvio/tr/manifest.json
 - English Collections: https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections-en.json
 - Turkish Collections: https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json
+- Source:
+https://www.izlemeli.com/izlemeli-nuvio-katalog-ve-koleksiyonlar/
 
 > It is recommended to use this plugin together with Nuvio's original catalog plugin. Nuvio's main catalog metadata helps smoother content matching.
 
@@ -311,5 +313,7 @@ https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections-en.
 - Türkçe Manifest: https://izlemeli.github.io/nuvio/tr/manifest.json
 - İngilizce Koleksiyonlar: https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections-en.json
 - Türkçe Koleksiyonlar: https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json
+- Kaynak:
+https://www.izlemeli.com/izlemeli-nuvio-katalog-ve-koleksiyonlar/
 
 > Bu eklentinin Nuvio'nun orijinal katalog eklentisiyle birlikte kullanılması önerilir. Nuvio'nun ana katalog metadata'sı içerik eşleşmelerinin daha sorunsuz çalışmasına yardımcı olur.
